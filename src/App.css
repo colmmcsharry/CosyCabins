@@ -1,22 +1,297 @@
-.App {
-  text-align: center;
+html {overflow-x: hidden !important;}
+
+
+body {
+    position:relative;
+    width:100vw;
+    overflow-x: hidden !important;
+}
+/*this keeps the fog from causing a horizontal scrollbar*/
+
+.App {background-color: #FFFFF0;
+  text-align:center
+  ;}
+
+
+#maincontainer {
+  background-image: url('./cabinlakeshopped2.jpg');
+height:120vh;
+width:100vw;
+overflow-x: hidden !important;
+color:white;
+background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
+/*use tutorial i favorited to see how tio use media query to load smaller image on phones
+https://www.webfx.com/blog/web-design/responsive-background-image/ */
+
+.maincontainerfilter {
+   backdrop-filter: brightness(0.8);
+    height:120vh;
+    width:100vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*make this the same size as the container it covers*/
+
+
+.header {background-color:black;
+  opacity:0.2;
+}
+
+.intro {
+margin-top:200px;
+margin-bottom:200px;
+
+  font-family: cursive;}
+
+.infoContainer {padding:30px;}
+
+.cabincontainer {
+  display: block;
+  border:2px solid red;
+}
+
+/*pic is controlling the size of the container*/
+.pic1 {
+  padding:20px;
+  position:relative;
+  display: inline-block;
+  right:250px;
+  width: auto;
+  height: 500px;
+}
+
+.pic1text {
+  position:relative;
+  display:inline-block;
+}
+
+.pic2 {
+  margin: 30px 0px;
+  padding:20px;
+  position:relative;
+  display: inline-block;
+  width: auto;
+  height: 400px;
+}
+
+.pic2text {
+  position:relative;
+  display:inline-block;
+}
+
+
+
+.pic3 {
+  padding:20px;
+  margin: 30px 0px;
+  position:relative;
+  display:inline-block;
+  width: auto;
+  height: 300px;
+}
+
+.pic2text {
+  position:relative;
+  display:inline-block;
+}
+
+
+
+
+
+/*still fog and moving clouds begins, need images too */
+
+/*.fog-low {
+  position: absolute;
+  overflow:hidden;
+  left: 390px;
+  top:400px;
+  bottom: 0;
+  margin-left: 1%;
+  margin-bottom: 0px;
+  width: 80%;
+  opacity: .85; }
+
+  .fog-low img {
+    position: absolute;
+    width: 100%; 
+  overflow:hidden;}
+
+  .fog-low.right {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+    opacity: 1; 
+  overflow:hidden;}*/
+
+
+.moving-clouds {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  overflow-x: hidden !important;
+  width: 200vw;
+  height: 100%;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite; }
+
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0); } }
+
+/*fog and clouds ends, working!*/
+
+
+.outer {
+  background-color: #FFFFF0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.outer .image {
+
+  flex-grow: 1;
+  flex-basis: calc(30% - 20px);
+  margin: 10px;
+  min-width: 300px;
+}
+.image img {
+  display: block;
+  width: 80%;
 }
 
-.App-link {
-  color: #09d3ac;
+.image.one img{
+  padding-left:50px;
 }
+
+.image.two img{
+  margin-left:50px;
+}
+
+
+.txt {
+  font-family: cursive;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-grow: 1;
+  flex-basis: calc(30% - 22px);
+  margin: 10px;
+  min-width: 300px;
+}
+
+.outer.one {margin-bottom:500px;}
+
+
+
+.outer.two {margin-bottom:350px;}
+
+.newtest {display:block;}
+
+
+
+.newtestpic {
+padding: 10px;
+border: 1px solid red;
+}
+
+.newtestpic img {
+  width:0vw;
+}
+
+.newtestblurb {
+border: 1px solid green;
+padding: 10px;
+font-size:.3em;
+width: 50vw;}
+
+
+.newimage {display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+padding-bottom: 400px;}
+
+.newimage img {
+  padding-left:100px;
+  width: 600px;
+  height: 400px;
+grid-column: 1;
+}
+
+
+
+
+.galimg {
+  margin: 250px 0px;
+  display:grid;
+grid-template-columns: 1fr 1fr;}
+
+.zoomableone {
+  grid-column:1;
+  height: 0px;
+  padding: 20px;
+}
+
+.resptext {grid-column: 2;
+font-family: cursive;
+line-height:50px;}
+
+.zoomabletwo {
+  grid-column:2;
+  height: 0px;
+  padding: 20px;
+}
+
+.resptexttwo {grid-column: 1;
+font-family: cursive;
+line-height:50px;}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .resptext {font-size:8px;
+    line-height:20px;}
+
+
+
+  .resptexttwo {font-size:8px;
+    line-height:20px;}
+
+}
+
+@media screen and (max-width: 600px) {
+  .image.one img {
+    padding-left: 130px;
+  }
+
+   .image.two img {
+    padding: 60px;
+  }
+
+.txt.two {margin-top:0px;
+order:2;
+}
+
+.newimage img {
+  padding-left:20px;
+  width: 200px;
+  height: 150px;
+grid-column: 1;
+}
+
+
+}
+
+
+

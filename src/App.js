@@ -1,26 +1,101 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
+// import Gallery from 'react-grid-gallery';
+import './App.css'
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
+import { photos } from "./photos";
+import Final from './Final'
+import SingleSource from './SingleSource.js'
+import cabinforest from './pics/cabinforest.jpg'
+import wildcabin from './pics/screenshot2.png'
+import cabinwindow from './pics/cabinwindow.jpg'
+import cabintriangle from './pics/cabintriangle.jpg'
+import yellowcabin from './pics/yellowcabin.jpg'
+
+
+
+
+
+
 
 function App() {
+   // const  myims = images.map(({id, src, title, description}) => <img key={id} src={src} title={title} alt={description} />) 
+
   return (
+ <React.Fragment>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+   		<div id ="maincontainer">  
+        <div className="maincontainerfilter">
+
+        <div className="header"> here be te header </div>
+
+              <p style ={{paddingTop:'400px', fontFamily: 'cursive', fontSize: '17px'}}>Escape</p>
+          
+
+                    <div className="moving-clouds"
+                              style={{
+                                backgroundImage: "url(" + require("./clouds.png") + ")" }}>
+                                </div>
+   </div>
+  </div>  
+
+<div className="intro"> 
+  Life stressing you out?
+
+  <br/> <br/> <br/> <br/>
+
+Feeling trapped?  
+
+    <br/> <br/> <br/> <br/>
+
+Escape to Cubby Cabins!    
+
+</div>
+
+  <div className="infoContainer">
+
+  </div>
+
+
+
+
+ <div className="galimg">
+      <div className="zoomableone">  <SingleSource src={yellowcabin} /></div>
+
+<div className="resptext"> here is where i will start describing the cabins <br/> 
+    here is where i will start describing the cabins <br/>
+    here is where i will start describing the cabins <br/></div>
+
+
+      </div>   
+
+
+
+ <div className="galimg">
+        <div className="zoomabletwo"><SingleSource src={yellowcabin} /></div>
+<div className="resptexttwo"> here is where i will start describing the cabins <br/> 
+    here is where i will start describing the cabins <br/>
+    here is where i will start describing the cabins <br/></div>
+
+
+      </div>   
+
+
+</div> {/*this one is app div*/}
+
+
+   </React.Fragment>
   );
+
 }
 
 export default App;
+
+
+
+
+
+
