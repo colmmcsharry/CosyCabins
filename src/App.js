@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
+import { HashRouter, Route, Link } from "react-router-dom";
 // import Gallery from 'react-grid-gallery';
 import './App.css'
-import Gallery from "react-photo-gallery";
-import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./photos";
 import Final from './Final'
 import SingleSource from './SingleSource.js'
@@ -13,6 +12,9 @@ import wildcabin from './pics/screenshot2.png'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
 import yellowcabin from './pics/yellowcabin.jpg'
+import MyCarousel from './Carousel.js'
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
 
 
 
@@ -24,6 +26,7 @@ function App() {
    // const  myims = images.map(({id, src, title, description}) => <img key={id} src={src} title={title} alt={description} />) 
 
   return (
+    <HashRouter basename='/'>
  <React.Fragment>
     <div className="App">
     
@@ -55,8 +58,12 @@ Escape to Cubby Cabins!
 
 </div>
 
+
+<div className="GalleryWrapper"><MyCarousel/></div>
+
   <div className="infoContainer">
 
+  
   </div>
 
 
@@ -83,11 +90,11 @@ Escape to Cubby Cabins!
 
       </div>   
 
-
 </div> {/*this one is app div*/}
 
 
    </React.Fragment>
+   </HashRouter>
   );
 
 }

@@ -97,8 +97,19 @@ margin-bottom:200px;
   display:inline-block;
 }
 
+.GalleryWrapper {
+  padding-top: 20px;
+  background-color: white;
+  padding-left: 20px; 
+  padding-right: 20px;  
+}
 
-
+.carimages {
+  padding: 20px;
+  border-radius: 10%;
+  height: 350px;
+  width: 450px;
+}
 
 
 /*still fog and moving clouds begins, need images too */
@@ -268,6 +279,21 @@ line-height:50px;}
   .resptexttwo {font-size:8px;
     line-height:20px;}
 
+.carimages {
+    padding: 20px;
+    border-radius: 10%;
+    height: 250px;
+    width: 250px;
+   }
+
+}
+
+@media screen and (max-width: 450px) {
+  .carimages {
+   padding: 20px;
+    border-radius: 15%;
+    height: 200px;
+    width: 200px;}
 }
 
 @media screen and (max-width: 600px) {
