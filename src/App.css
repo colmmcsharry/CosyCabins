@@ -2,7 +2,6 @@
 
 html {overflow-x: hidden !important;}
 
-
 body {
     position:relative;
     width:100vw;
@@ -44,8 +43,9 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 .intro {
 margin-top:200px;
 margin-bottom:200px;
+font-family: 'Patrick Hand SC';}
 
-  font-family: cursive;}
+
 
 .infoContainer {padding:30px;}
 
@@ -265,7 +265,7 @@ grid-template-columns: 1fr 1fr;}
 }
 
 .resptext {grid-column: 2;
-font-family: cursive;
+font-family: Patrick Hand SC;
 line-height:50px;}
 
 .zoomabletwo {
@@ -306,6 +306,17 @@ align-self: center;
 button.lined.thin:hover {
    box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, .3);}
 
+/*HAND DRAWN BUTTONS END*/
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -322,45 +333,45 @@ button.lined.thin:hover {
   background: transparent;
    border: solid 3px #41403e;
     
-    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     height: 450px;
     width: 500px;
     margin: none;
    }
 
+   
+
+.galimg {display: block;
+}
+
+.zoomableone {display:inline-block;}
+
+.resptext {display:inline-block;}
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 450px) {
   .carimages {
-   padding: 20px;
-    border-radius: 15%;
-    height: 350px;
-    width: 450px;}
+    font-family: 'Patrick Hand SC';
+  background: transparent;
+   border: solid 3px #41403e;
+    
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    height: 250px;
+    width: 300px;
+    margin: none;
 }
-
-@media screen and (max-width: 600px) {
-  .image.one img {
-    padding-left: 130px;
-  }
-
-   .image.two img {
-    padding: 60px;
-  }
-
-.txt.two {margin-top:0px;
-order:2;
-}
-
-.newimage img {
-  padding-left:20px;
-  width: 200px;
-  height: 150px;
-grid-column: 1;
 }
 
 
-}
+
+
+
 
 
 
