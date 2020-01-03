@@ -63,7 +63,7 @@ Escape to Cubby Cabins!
 
   <div className="infoContainer">
 
-  
+
   </div>
 
 
@@ -88,8 +88,10 @@ Escape to Cubby Cabins!
     here is where i will start describing the cabins <br/></div>
 
 
-      </div>   
+      </div>  
 
+      <button className="lined thin"> CLICK ME! </button> 
+<br/> <br/> <br/> <br/> test
 </div> {/*this one is app div*/}
 
 

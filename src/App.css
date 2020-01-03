@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+
 html {overflow-x: hidden !important;}
 
 
@@ -98,18 +100,31 @@ margin-bottom:200px;
 }
 
 .GalleryWrapper {
-  padding-top: 20px;
-  background-color: white;
+  padding-top: 0px;
+  background-color: transparent;
   padding-left: 20px; 
   padding-right: 20px;  
 }
 
 .carimages {
-  padding: 20px;
-  border-radius: 10%;
-  height: 350px;
-  width: 450px;
+  font-family: 'Patrick Hand SC';
+  background: transparent;
+   border: solid 3px #41403e;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    height: 450px;
+    width: 450px;
+    margin: none;
 }
+
+.carimages.one {
+border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
+
+.carimages.two {
+ border-radius: 4% 96% 5% 95% / 100% 2% 96% 3% }
+
+ .carimages.two {
+ border-radius: 4% 96% 5% 95% / 100% 2% 96% 3% }
+
 
 
 /*still fog and moving clouds begins, need images too */
@@ -264,9 +279,32 @@ font-family: cursive;
 line-height:50px;}
 
 
+/* THIN HAND DRAWN BUTTONS BEGINS! */
 
+/*can make this thick purely by increasing the border px*/
+button.lined.thin {
+    font-family: 'Patrick Hand SC';
+   border: solid 3px #41403e;
+align-self: center;
+   background: transparent;
+   padding: 1rem 1rem;
+   margin: 0 1rem;
+   transition: all 0.5s ease;
+   color: #41403e;
+   font-size: 2rem;
+   letter-spacing: 1px;
+   outline: none;
+   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  /* Above is shorthand for: border-top-left-radius: 255px 15px;
+   border-top-right-radius: 15px 225px;
+   border-bottom-right-radius: 225px 15px;
+   border-bottom-left-radius:15px 255px;
+   */
+}
 
-
+button.lined.thin:hover {
+   box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, .3);}
 
 
 
@@ -280,10 +318,15 @@ line-height:50px;}
     line-height:20px;}
 
 .carimages {
-    padding: 20px;
-    border-radius: 10%;
-    height: 250px;
-    width: 250px;
+  font-family: 'Patrick Hand SC';
+  background: transparent;
+   border: solid 3px #41403e;
+    
+    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    height: 450px;
+    width: 500px;
+    margin: none;
    }
 
 }
@@ -292,8 +335,8 @@ line-height:50px;}
   .carimages {
    padding: 20px;
     border-radius: 15%;
-    height: 200px;
-    width: 200px;}
+    height: 350px;
+    width: 450px;}
 }
 
 @media screen and (max-width: 600px) {

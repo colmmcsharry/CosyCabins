@@ -23,7 +23,7 @@ class MyCarousel extends React.Component {
   render() {
     const responsive = {
       0: {
-        items: 2
+        items: 1
       },
       800: {
         items: 2
@@ -85,7 +85,7 @@ class MyCarousel extends React.Component {
         <Link to="/chefs">
          
             <img
-              className="carimages"
+              className="carimages one"
               src={cabinforest} alt="chef"
             />
             
@@ -97,7 +97,7 @@ class MyCarousel extends React.Component {
         <Link to="/accountants">
          
             <img
-              className="carimages"
+              className="carimages two"
               src={wildcabin} alt="accountant"
             />
             
@@ -109,7 +109,7 @@ class MyCarousel extends React.Component {
         <Link to="/clowns">
          
             <img
-              className="carimages"
+              className="carimages three"
               src={cabinwindow} alt="clown" 
             />
             
