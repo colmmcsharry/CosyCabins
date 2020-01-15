@@ -120,66 +120,21 @@ background-color: #FFFFF0;}
   left: 50%;
   transform: translate(-50%, -50%);
 font-family: 'Patrick Hand SC';
-font-size: '17px'}
+font-size: '19px'}
 
 .intro {
-margin-top:200px;
-margin-bottom:200px;
-font-family: 'Patrick Hand SC';}
+margin-top:400px;
+margin-bottom:400px;
+font-family: 'Patrick Hand SC';
+font-size:20px;}
 
 
 
-.infoContainer {padding:30px;}
-
-.cabincontainer {
-  display: block;
-  border:2px solid red;
-}
-
-/*pic is controlling the size of the container*/
-.pic1 {
-  padding:20px;
-  position:relative;
-  display: inline-block;
-  right:250px;
-  width: auto;
-  height: 500px;
-}
-
-.pic1text {
-  position:relative;
-  display:inline-block;
-}
-
-.pic2 {
-  margin: 30px 0px;
-  padding:20px;
-  position:relative;
-  display: inline-block;
-  width: auto;
-  height: 400px;
-}
-
-.pic2text {
-  position:relative;
-  display:inline-block;
-}
 
 
 
-.pic3 {
-  padding:20px;
-  margin: 30px 0px;
-  position:relative;
-  display:inline-block;
-  width: auto;
-  height: 300px;
-}
 
-.pic2text {
-  position:relative;
-  display:inline-block;
-}
+
 
 .GalleryWrapper {
   padding-top: 0px;
@@ -257,86 +212,12 @@ border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
 /*fog and clouds ends, working!*/
 
 
-.outer {
-  background-color: #FFFFF0;
-  display: flex;
-  flex-wrap: wrap;
-}
-.outer .image {
-
-  flex-grow: 1;
-  flex-basis: calc(30% - 20px);
-  margin: 10px;
-  min-width: 300px;
-}
-.image img {
-  display: block;
-  width: 80%;
-}
-
-.image.one img{
-  padding-left:50px;
-}
-
-.image.two img{
-  margin-left:50px;
-}
-
-
-.txt {
-  font-family: cursive;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-grow: 1;
-  flex-basis: calc(30% - 22px);
-  margin: 10px;
-  min-width: 300px;
-}
-
-.outer.one {margin-bottom:500px;}
-
-
-
-.outer.two {margin-bottom:350px;}
-
-.newtest {display:block;}
-
-
-
-.newtestpic {
-padding: 10px;
-border: 1px solid red;
-}
-
-.newtestpic img {
-  width:0vw;
-}
-
-.newtestblurb {
-border: 1px solid green;
-padding: 10px;
-font-size:.3em;
-width: 50vw;}
-
-
-.newimage {display: grid;
-grid-template-columns: 1fr 1fr;
-align-items: center;
-padding-bottom: 400px;}
-
-.newimage img {
-  padding-left:100px;
-  width: 600px;
-  height: 400px;
-grid-column: 1;
-}
 
 
 
 
 .galimg {
-  margin: 250px 0px;
+  margin: 600px 0px;
   display:grid;
 grid-template-columns: 1fr 1fr;}
 
@@ -348,7 +229,9 @@ grid-template-columns: 1fr 1fr;}
 
 .resptext {grid-column: 2;
 font-family: Patrick Hand SC;
-line-height:50px;}
+line-height:50px;
+margin-top:200px;
+font-size:20px;}
 
 .zoomabletwo {
   grid-column:2;
@@ -357,8 +240,10 @@ line-height:50px;}
 }
 
 .resptexttwo {grid-column: 1;
-font-family: cursive;
-line-height:50px;}
+font-family: Patrick Hand SC;
+line-height:50px;
+margin-top:100px;
+font-size:20px;}
 
 
 /* THIN HAND DRAWN BUTTONS BEGINS! */

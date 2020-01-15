@@ -8,9 +8,9 @@ function SingleSource({ src }) {
   const [zoomed, setZoomed] = React.useState(false);
 
   return (
-    <div style={{ margin: "0.25rem" }}>
-      <Image
-        style={{ width: "300px", height: "auto" }}
+    <div>
+      <Image className="carimages"
+        style={{ width: "450px", height: "450px" }}
         zoomed={zoomed}
         src={src}
         onClick={() => setZoomed(true)}
