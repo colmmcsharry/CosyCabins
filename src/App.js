@@ -15,6 +15,7 @@ import yellowcabin from './pics/yellowcabin.jpg'
 import MyCarousel from './Carousel.js'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import Navbar from "./Navbar.js";
 
 
 
@@ -31,11 +32,11 @@ function App() {
     <div className="App">
     
    		<div id ="maincontainer">  
+        <Navbar />
         <div className="maincontainerfilter">
+        
 
-        <div className="header"> here be te header </div>
-
-              <p className="escape" style ={{paddingTop:'400px', fontFamily: 'Patrick Hand SC', fontSize: '17px'}}>Escape</p>
+              <p className="escape" >Escape</p>
           
 
                     <div className="moving-clouds"
