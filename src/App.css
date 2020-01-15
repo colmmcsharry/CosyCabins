@@ -44,11 +44,12 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 
 
 /*Mynavbar is a long container div with 3 columns, first for logo and dropdown, second blank, third for authlinks*/
-.Mynavbar {
+#Mynavbar {
   position:fixed;
   width:100%;
   z-index:3;
   top:0;
+  transition: top 0.3s;
   display: grid;
   background-color:transparent;
   grid-template-columns: 1fr 8fr 1fr 1fr;
