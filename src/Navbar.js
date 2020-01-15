@@ -29,12 +29,14 @@ window.onscroll = function() {
             /> 
           </Link>
         </div>
-        <div className="dropbar">
-          <NewdropSml />
-        </div>
-        <div className="hamburger">
-          <Smalldrop />
-        </div>
+        <div className="dropcontainer">
+          <div className="dropbar">
+            <NewdropSml />
+          </div>
+          <div className="hamburger">
+            <Smalldrop />
+          </div>
+        </div>  
       </div>
     );
   }
