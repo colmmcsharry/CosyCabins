@@ -35,7 +35,7 @@ function App() {
 
         <div className="header"> here be te header </div>
 
-              <p style ={{paddingTop:'400px', fontFamily: 'Patrick Hand SC', fontSize: '17px'}}>Escape</p>
+              <p className="escape" style ={{paddingTop:'400px', fontFamily: 'Patrick Hand SC', fontSize: '17px'}}>Escape</p>
           
 
                     <div className="moving-clouds"

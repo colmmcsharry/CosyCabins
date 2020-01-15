@@ -22,6 +22,7 @@ overflow-x: hidden !important;
 color:white;
 background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 /*use tutorial i favorited to see how tio use media query to load smaller image on phones
@@ -39,6 +40,14 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 .header {background-color:black;
   opacity:0.2;
 }
+
+/*can edit this later to make it move slightly off the house on phones*/
+.escape { position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-family: 'Patrick Hand SC';
+font-size: '17px'}
 
 .intro {
 margin-top:200px;
@@ -320,13 +329,26 @@ button.lined.thin:hover {
 
 
 @media screen and (max-width: 600px) {
-  .resptext {font-size:8px;
-    line-height:20px;}
 
+
+.galimg {display: block;}
+
+.zoomableone {display:block;}
+
+.resptext {display:block;}
+
+  .resptext {font-size:8px;
+    line-height:20px;
+    border:1px solid green;
+    color:red;
+    margin-top:200px;}
 
 
   .resptexttwo {font-size:8px;
-    line-height:20px;}
+    line-height:20px;
+    border:1px solid red;
+  color:red;
+    margin-top:200px;}
 
 .carimages {
   font-family: 'Patrick Hand SC';
@@ -338,19 +360,6 @@ button.lined.thin:hover {
     width: 500px;
     margin: none;
    }
-
-   
-
-.galimg {display: block;
-}
-
-.zoomableone {display:inline-block;}
-
-.resptext {display:inline-block;}
-
-
-
-
 
 
 }
