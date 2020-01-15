@@ -2,10 +2,11 @@ import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 export const Dropstyle = {
   color: '#1B6EB0',
-  backgroundColor:'white',
+  backgroundColor:'transparent',
   margin:'0px',
   padding:'11px 9px',
   height: 'auto',
@@ -35,7 +36,7 @@ export default class NewdropSml extends React.Component {
     return (
       <Dropdown direction="down" size="sm" isOpen={this.state.dropdownOpen} toggle={this.toggle}> {/*this direction works*/}
         <DropdownToggle style={Dropstyle}>
-           <FontAwesomeIcon icon="search"  size="lg" />
+           <FontAwesomeIcon icon={faSearch} size="lg" />
         </DropdownToggle>
         <DropdownMenu right className = "mydrop">
           <DropdownItem tag={Link} to="/accountants" className="dropitems">Accountant</DropdownItem>

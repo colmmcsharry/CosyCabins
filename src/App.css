@@ -45,14 +45,25 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 
 /*Mynavbar is a long container div with 3 columns, first for logo and dropdown, second blank, third for authlinks*/
 .Mynavbar {
+  position:fixed;
+  width:100%;
+  z-index:3;
+  top:0;
   display: grid;
-  backdrop-filter: brightness(0.8);
   background-color:transparent;
   grid-template-columns: 1fr 8fr 1fr 1fr;
   justify-content: center;
   padding: 30px 0px;
   grid-column-gap: 0px;
+animation: cssAnimation 0s 5s forwards;
+  visibility: hidden;
 }
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
+
+
 
 /*the container div for the actual logo symbol*/
 .logocontainer {
@@ -62,6 +73,8 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 }
 
 .logo {
+  color:blue;
+
   margin-top: 10px;
   height: 60px;
   width: 60px;

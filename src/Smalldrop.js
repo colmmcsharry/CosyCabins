@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Dropstyle = {
   color: '#1B6EB0',
-  backgroundColor:'white',
+  backgroundColor:'transparent',
   margin:'0px',
   padding:'11px',
   height: 'auto',

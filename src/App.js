@@ -16,6 +16,7 @@ import MyCarousel from './Carousel.js'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Navbar from "./Navbar.js";
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 
 
