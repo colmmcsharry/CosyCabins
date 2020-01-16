@@ -23,7 +23,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import Navbar from "./Navbar.js";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-
+import YouTube from 'react-youtube-embed'
 
 
 
@@ -110,12 +110,14 @@ Escape to a Cubby Cabin!
 
 
 
-      <button className="lined thin"> CLICK ME! </button> 
+      
 <br/> <br/> <br/> <br/> 
-Put Youtube video here
+<div className="Youtubee"><YouTube id='Wb_CqlsOSUY' /></div>
 
+Convinced yet? <br/> <br/>
+ <button className="lined thin"> CLICK ME! </button>
 
-
+<br/> <br/> 
 
 </div> {/*this one is app div*/}
 

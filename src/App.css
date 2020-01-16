@@ -38,6 +38,7 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 
 /*make this the same size as the container it covers*/
 
+.Youtubee {padding:150px;}
 
 #Mynavbar {
   position:fixed;
@@ -295,6 +296,10 @@ button.lined.thin:hover {
 
 
 @media screen and (max-width: 600px) {
+
+.Youtubee {
+  padding: 0px 15px 150px 15px;
+}
 
 .swipe {
   display:block;

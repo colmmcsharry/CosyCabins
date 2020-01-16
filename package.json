@@ -20,6 +20,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.0",
     "react-socks": "^2.1.0",
+    "react-youtube-embed": "^1.0.3",
     "reactstrap": "^8.2.0",
     "styled-components": "^5.0.0"
   },
