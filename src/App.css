@@ -115,8 +115,8 @@ background-color: #FFFFF0;}
 
 
 /*can edit this later to make it move slightly off the house on phones*/
-.escape { position: fixed;
-  top: 30%;
+.escape { position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 font-family: 'Patrick Hand SC';
@@ -130,7 +130,9 @@ font-size:20px;}
 
 
 
-
+.swipe {
+ 
+  display: none;}
 
 
 
@@ -217,7 +219,7 @@ border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
 
 
 .galimg {
-  margin: 600px 0px;
+  margin: 450px 0px;
   display:grid;
 grid-template-columns: 1fr 1fr;}
 
@@ -248,6 +250,7 @@ font-size:20px;}
    .closing {position:relative;
 top:300px;
 left:50%;
+margin:150px 0px;
 font-family: 'Patrick Hand SC';
 font-size: 20px;}
 
@@ -293,19 +296,29 @@ button.lined.thin:hover {
 
 @media screen and (max-width: 600px) {
 
+.swipe {
+  display:block;
+  position:relative;
+  height:30px;
+  width:30px;
+  left:47%;
+  top:19px;
+  visibility: show;}
+
+
 
 .galimg {display: block;}
 
-.zoomableone {display:block;}
+.zoomableone {display:block;
+}
 
-.resptext {display:block;
-position:relative;}
-
-  .resptext {font-size:18px;
-    line-height:25px;
-    
+  .resptext {
+display:block;
+position:relative;
+    font-size:18px;
+    line-height:25px;   
     color:#212529;
-    bottom:300px;}
+    bottom:400px;}
 
 
   .resptexttwo {
@@ -314,11 +327,12 @@ position:relative;}
     line-height:25px;
     
   color:#212529;
-    bottom: 200px;}
+    bottom: 300px;}
 
 
 .closing {position:relative;
-top:100px;
+  margin:0px;
+top:200px;
 left:0px;
 font-family: 'Patrick Hand SC';}
 

@@ -17,6 +17,7 @@ import mountaincabin from './pics/mountaincabin.jpg'
 import inside from './inside.png'
 import yogi from './pics/yogi.png'
 import pjj from './pjimage.jpg'
+import swipe from './pics/swipe.png'
 import MyCarousel from './Carousel.js'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -67,7 +68,7 @@ Escape to a Cubby Cabin!
 
 
 <div className="GalleryWrapper"><MyCarousel/></div>
-
+<img className="swipe" src={swipe}/>
   
 
 

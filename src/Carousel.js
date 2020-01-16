@@ -54,12 +54,12 @@ class MyCarousel extends React.Component {
         infinite={true}
         buttonsDisabled={true}
         dotsDisabled={true}
-        fadeOutAnimation={true}
+        fadeOutAnimation={false}
         mouseDragEnabled={true}
         stopAutoPlayOnHover={false}
         playButtonEnabled={false}
         responsive={responsive}
-        autoPlayInterval={100}
+        autoPlayInterval={50}
         autoPlayDirection="rtl"
         autoPlayActionDisabled={false}
         onSlideChange={this.onSlideChange}
