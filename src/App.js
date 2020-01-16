@@ -16,6 +16,7 @@ import outside from './outside.png'
 import mountaincabin from './pics/mountaincabin.jpg'
 import inside from './inside.png'
 import yogi from './pics/yogi.png'
+import pjj from './pjimage.jpg'
 import MyCarousel from './Carousel.js'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -94,12 +95,12 @@ Escape to a Cubby Cabin!
       </div>  
 
 <div className="galimg">
-      <div className="zoomableone">  <SingleSource src={yogi} /></div>
+      <div className="zoomableone">  <SingleSource src={pjj} /></div>
 
-<div className="resptext"> So whether you're a yogi, writer, philosopher or just want a change of scenery <br/> 
-    We have a cubby cabin for you <br/>
-     <br/></div>
-
+<div className="resptext"> So whether you're a yogi, writer, philosopher <br/> or just want a change of scenery... 
+   
+     </div>
+     <span className="closing"> We have a cubby cabin for you </span>
 
       </div>   
 

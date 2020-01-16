@@ -10,7 +10,7 @@ function SingleSource({ src }) {
   return (
     <div>
       <Image className="carimages"
-        style={{ width: "450px", height: "450px" }}
+        
         zoomed={zoomed}
         src={src}
         onClick={() => setZoomed(true)}

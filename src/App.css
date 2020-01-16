@@ -245,6 +245,11 @@ line-height:50px;
 margin-top:100px;
 font-size:20px;}
 
+   .closing {position:relative;
+top:300px;
+left:50%;
+font-family: 'Patrick Hand SC';
+font-size: 20px;}
 
 /* THIN HAND DRAWN BUTTONS BEGINS! */
 
@@ -293,23 +298,33 @@ button.lined.thin:hover {
 
 .zoomableone {display:block;}
 
-.resptext {display:block;}
+.resptext {display:block;
+position:relative;}
 
-  .resptext {font-size:8px;
-    line-height:20px;
-    border:1px solid green;
-    color:red;
-    margin-top:200px;}
+  .resptext {font-size:18px;
+    line-height:25px;
+    
+    color:#212529;
+    bottom:300px;}
 
 
-  .resptexttwo {font-size:8px;
-    line-height:20px;
-    border:1px solid red;
-  color:red;
-    margin-top:200px;}
+  .resptexttwo {
+  position:relative;
+    font-size:18px;
+    line-height:25px;
+    
+  color:#212529;
+    bottom: 200px;}
+
+
+.closing {position:relative;
+top:100px;
+left:0px;
+font-family: 'Patrick Hand SC';}
 
 .carimages {
   font-family: 'Patrick Hand SC';
+  font-size:18px;
   background: transparent;
    border: solid 3px #41403e;
     
