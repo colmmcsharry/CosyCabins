@@ -369,11 +369,11 @@ font-family: 'Patrick Hand SC';}
 }
 
 
-.escape { position: absolute;
+.escape { position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-font-family: 'Patrick Hand SC';
+font-family: 'Patrick Hand SC', Comic Sans ;
 font-size: '19px';
 z-index: 3;}
 
