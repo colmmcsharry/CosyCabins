@@ -17,14 +17,14 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("Mynavbar").style.top = "0";
   } else {
-    document.getElementById("Mynavbar").style.top = "-80px";
+    document.getElementById("Mynavbar").style.top = "-180px";
   }
   prevScrollpos = currentScrollPos;
 }
     return (
       <div id="Mynavbar">
         <div className="logocontainer">
-          <Link to="/">
+          <Link to="/landing">
             <img src={logo} className="logo" alt="our logo"
             /> 
           </Link>
