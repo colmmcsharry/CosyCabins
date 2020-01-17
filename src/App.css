@@ -201,8 +201,8 @@ border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
   overflow-x: hidden !important;
   width: 200vw;
   height: 100%;
-  -webkit-animation: cloudLoop 73s linear infinite;
-  animation: cloudLoop 73s linear infinite; }
+  -webkit-animation: cloudLoop 20s linear infinite;
+  animation: cloudLoop 20s linear infinite; }
 
 @keyframes cloudLoop {
   0% {
