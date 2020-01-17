@@ -16,7 +16,7 @@ body {
 
 
 #maincontainer {
-  background-image: url('./cabinlakeshopped2.jpg');
+  background-image: url('./pics/cabinlakeshopped2.jpg');
 height:120vh;
 width:100vw;
 overflow-x: hidden !important;
@@ -367,7 +367,21 @@ font-family: 'Patrick Hand SC';}
     width: 300px;
     margin: none;
 }
+
+
+.escape { position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+font-family: 'Patrick Hand SC';
+font-size: '19px'}
+
+
+
+
+
 }
+
 
 
 

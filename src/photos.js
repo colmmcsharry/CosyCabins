@@ -21,4 +21,4 @@ export const photos = [
   }
 ];
 
-/*these are the ones in the Final lightbox component*/
+/*these are the ones in the Final lightbox component, not using yet in this app but probably will for the individual cabin's pages*/

@@ -10,8 +10,8 @@ import cabintriangle from './pics/cabintriangle.jpg'
 import yellowcabin from './pics/yellowcabin.jpg'
 import mountaincabin from './pics/mountaincabin.jpg'
 import screenshot1 from './pics/screenshot1.png'
-import outside from './outside.png'
-import boat from './boat.png'
+import outside from './pics/outside.png'
+import boat from './pics/boat.png'
 import snowycabin from './pics/snowycabin.jpg'
 
 /*remember there is an AliceCarousel.CSS file that can be edited too, like in my group proj version, can remove buttons, etc.*/
@@ -60,7 +60,7 @@ class MyCarousel extends React.Component {
         playButtonEnabled={false}
         responsive={responsive}
         autoPlayInterval={50}
-        autoPlayDirection="rtl"
+        autoPlayDirection="ltr"
         autoPlayActionDisabled={false}
         onSlideChange={this.onSlideChange}
         onSlideChanged={this.onSlideChanged}

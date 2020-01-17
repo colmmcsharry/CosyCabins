@@ -1,5 +1,5 @@
 /*I have no need to make the dropdown and the items inside the navbar seperate components, as they will always be on screen, regardless of route*/
-import logo from "./home.png";
+import logo from "./pics/home.png";
 import React from "react";
 import { Link } from 'react-router-dom';
 import Smalldrop from "./Smalldrop";

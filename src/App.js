@@ -12,11 +12,11 @@ import wildcabin from './pics/screenshot2.png'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
 import yellowcabin from './pics/yellowcabin.jpg'
-import outside from './outside.png'
+import outside from './pics/outside.png'
 import mountaincabin from './pics/mountaincabin.jpg'
-import inside from './inside.png'
+import inside from './pics/inside.png'
 import yogi from './pics/yogi.png'
-import pjj from './pjimage.jpg'
+import pjj from './pics/pjimage.jpg'
 import swipe from './pics/swipe.png'
 import MyCarousel from './Carousel.js'
 import Gallery from "react-photo-gallery";
@@ -48,7 +48,7 @@ function App() {
 
                     <div className="moving-clouds"
                               style={{
-                                backgroundImage: "url(" + require("./clouds.png") + ")" }}>
+                                backgroundImage: "url(" + require("./pics/clouds.png") + ")" }}>
                                 </div>
    </div>
   </div>  
@@ -112,7 +112,7 @@ Escape to a Cubby Cabin!
 
       
 <br/> <br/> <br/> <br/> 
-<div className="Youtubee"><YouTube id='Wb_CqlsOSUY' /></div>
+<div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
 
 Convinced yet? <br/> <br/>
  <button className="lined thin"> CLICK ME! </button>
