@@ -24,7 +24,15 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import Navbar from "./Navbar.js";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import YouTube from 'react-youtube-embed'
-
+import SocialFollow from './SocialFollow.js'
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faGithub,
+  faLinkedIn
+} from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -118,6 +126,8 @@ Convinced yet? <br/> <br/>
  <button className="lined thin"> CLICK ME! </button>
 
 <br/> <br/> 
+
+<SocialFollow />
 
 </div> {/*this one is app div*/}
 
