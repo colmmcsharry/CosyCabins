@@ -8,7 +8,7 @@ import Lightbox from './Lightbox.js'
 export default [
 
 
-         
+			<Route key="home" exact path="/Testproj" component={Landing} />,         
             <Route key="carousel" path="/carousel" component={Carousel} />,       
 			<Route key="landing" path="/landing" component={Landing} />,      
 			<Route key="dublin" path="/dublin" render={(props) => <Lightbox {...props} place="Dublin" />}               />
