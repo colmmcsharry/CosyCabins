@@ -119,6 +119,47 @@ background-color: #FFFFF0;}
 /*navbar ends*/
 
 
+
+
+
+
+
+/*BLOG*/
+
+
+.blogclass {padding-top:300px;}
+
+.blogclass h1 {font-family: Quicksand;
+font-weight: bold;}
+
+.blogclass p {font-family: Quicksand;}
+
+.blogtext {font-family: Quicksand;}
+
+/*BLOG ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* SOCIAL STUFF */
 .social-container {
   background: #FFFFF0;
@@ -326,12 +367,12 @@ button.lined.thin {
    border: solid 3px #41403e;
 align-self: center;
    background: transparent;
-   padding: 1rem 1rem;
-   margin: 0 1rem;
+   padding: 10px;
+   
    transition: all 0.5s ease;
    color: #41403e;
-   font-size: 2rem;
-   letter-spacing: 1px;
+   font-size: 18px;
+   letter-spacing: 2px;
    outline: none;
    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
