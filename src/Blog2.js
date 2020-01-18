@@ -20,8 +20,8 @@ class Blog2 extends Component {
 
     return (
       <div className="blogclass">
-        <h1>How a digital detox rewires your brain</h1>
-        <p>In this blog we talk about how getting away from screens presses the reset button on your brain.</p>
+        <h1>How a digital detox rewires your brain</h1> <br/>
+        <p>In this blog we talk about how getting away from screens presses the reset button on your brain.</p> <br/>
         <button className="lined thin" onClick={this.onToggleVisibility}>
           {visibility ? "Hide blog" : "Show blog"}
         </button>

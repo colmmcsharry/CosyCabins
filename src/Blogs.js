@@ -10,9 +10,9 @@ export default function Blogs (){
 			<div className="blogscontainer">
 
 			<Blog />
-
+			<br/>
 			<Blog2 />
-
+<br/>
 			<Blog3 />
 
 

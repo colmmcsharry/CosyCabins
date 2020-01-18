@@ -13,7 +13,7 @@ function Lightbox(props) {
   if (place=== "Dublin") {
     return (  <React.Fragment>
 
-      <Cabin title="Dublin Cabin" mainimg="https://inhabitat.com/wp-content/blogs.dir/1/files/2016/09/Tiny-Cabins-by-Harvard-startup-Getaway-889x673.jpg"
+      <Cabin title="Dublin" mainimg="https://i.pinimg.com/originals/0f/c6/b5/0fc6b5e934a48cb8d0c57fa51144152f.jpg"
        price="$50 p/night" facilities="double bed, kettle, oven, table" photos={dublinphotos} />
 
       

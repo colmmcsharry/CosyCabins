@@ -41,7 +41,7 @@ export default class Smalldrop extends React.Component {
           
           <DropdownItem className="dropitems" >About</DropdownItem>
           <DropdownItem tag={Link} to="/Contact" className="dropitems" >Contact</DropdownItem>
-          <DropdownItem tag={Link}to="/blog" className="dropitems">Blog</DropdownItem>
+          <DropdownItem tag={Link}to="/blogs" className="dropitems">Blog</DropdownItem>
 
           
           
