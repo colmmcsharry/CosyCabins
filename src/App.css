@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Itim|Open+Sans|Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
 
-html {overflow-x: hidden !important;}
+html {overflow-x: hidden !important;
+}
 
 body {
     position:relative;
@@ -13,7 +14,8 @@ body {
 
 .App {background-color: #FFFFF0;
   text-align:center;
- padding-bottom:150px;}
+ padding-bottom:150px;
+}
 
 
 #maincontainer {
@@ -49,6 +51,9 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 }
 
 .carimages .sec {border: 20px solid red;}
+
+
+/*NAVBAR BEGINS*/
 
 #Mynavbar {
   position:fixed;
@@ -94,14 +99,18 @@ animation: cssAnimation 0s 3s forwards;
 .dropcontainer {display: grid;
   grid-column: 3;
 grid-template-columns: 1fr 1fr;
+
 }
 
 .dropbar {
   width:10px;
   position:relative;
   grid-column: 1;
-  color: #1B6EB0;
+  color: green;
+  border-color:red;
 }
+
+/* color: #1B6EB0; this is tyhe navy blue color*/
 
 .dropitems {color: #1B6EB0;
 font-family: quicksand;
@@ -111,12 +120,7 @@ background-color: #FFFFF0;}
   position:relative;
   grid-column: 2;
   width:10px;
-
 }
-
-
-
-/*navbar ends*/
 
 
 
@@ -164,22 +168,25 @@ height:auto;}
 
 
 
+.test {color: green;
+}
+
+.test2 {background-color: white;}
 
 
 
+/*FOOTER*/
 
+.footerlist {position: absolute;
+  text-align: left;
+  left:0px;
+  list-style-position: inside;
+  margin:0px;
+  margin-left:5px;
+  padding:0px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+ {}
 
 /* SOCIAL STUFF */
 .social-container {

@@ -41,9 +41,13 @@ import {
 function App() {
    // const  myims = images.map(({id, src, title, description}) => <img key={id} src={src} title={title} alt={description} />) 
 
+
+
   return (
+
     <HashRouter basename='/'>
  <React.Fragment>
+
     <div className="App">
     <Navbar />
    		{routes}

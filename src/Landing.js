@@ -115,7 +115,7 @@ return (
     <br/> <br/> <br/> <br/> 
     <div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
 
-    Convinced yet? <br/> <br/>
+    <br/> <br/>
      <button className="lined thin"> Testimonials </button> {/*make this button a function that when clicked, randomly loads 3 testimonials below it*/}
 
     <br/> <br/> 
