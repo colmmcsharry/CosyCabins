@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Testproj/static/css/main.6c563ccd.chunk.css",
-    "main.js": "/Testproj/static/js/main.4a146f66.chunk.js",
-    "main.js.map": "/Testproj/static/js/main.4a146f66.chunk.js.map",
+    "main.css": "/Testproj/static/css/main.d914ecd3.chunk.css",
+    "main.js": "/Testproj/static/js/main.ea137acc.chunk.js",
+    "main.js.map": "/Testproj/static/js/main.ea137acc.chunk.js.map",
     "runtime-main.js": "/Testproj/static/js/runtime-main.f6b8adf4.js",
     "runtime-main.js.map": "/Testproj/static/js/runtime-main.f6b8adf4.js.map",
     "static/css/2.67e77fe5.chunk.css": "/Testproj/static/css/2.67e77fe5.chunk.css",
-    "static/js/2.cd1820d2.chunk.js": "/Testproj/static/js/2.cd1820d2.chunk.js",
-    "static/js/2.cd1820d2.chunk.js.map": "/Testproj/static/js/2.cd1820d2.chunk.js.map",
+    "static/js/2.ca37e78e.chunk.js": "/Testproj/static/js/2.ca37e78e.chunk.js",
+    "static/js/2.ca37e78e.chunk.js.map": "/Testproj/static/js/2.ca37e78e.chunk.js.map",
     "index.html": "/Testproj/index.html",
-    "precache-manifest.c5552c09c119c603fd1f379eadd7da68.js": "/Testproj/precache-manifest.c5552c09c119c603fd1f379eadd7da68.js",
+    "precache-manifest.774a8b354d59392decab149c3bf388c0.js": "/Testproj/precache-manifest.774a8b354d59392decab149c3bf388c0.js",
     "service-worker.js": "/Testproj/service-worker.js",
     "static/css/2.67e77fe5.chunk.css.map": "/Testproj/static/css/2.67e77fe5.chunk.css.map",
-    "static/css/main.6c563ccd.chunk.css.map": "/Testproj/static/css/main.6c563ccd.chunk.css.map",
-    "static/js/2.cd1820d2.chunk.js.LICENSE": "/Testproj/static/js/2.cd1820d2.chunk.js.LICENSE",
+    "static/css/main.d914ecd3.chunk.css.map": "/Testproj/static/css/main.d914ecd3.chunk.css.map",
+    "static/js/2.ca37e78e.chunk.js.LICENSE": "/Testproj/static/js/2.ca37e78e.chunk.js.LICENSE",
     "static/media/boat.png": "/Testproj/static/media/boat.33fceac3.png",
     "static/media/App.css": "/Testproj/static/media/cabinlakeshopped2.d77ae6aa.jpg",
     "static/media/cabinnight.jpg": "/Testproj/static/media/cabinnight.e3482b54.jpg",
@@ -27,14 +27,15 @@
     "static/media/screenshot1.png": "/Testproj/static/media/screenshot1.51693d90.png",
     "static/media/screenshot2.png": "/Testproj/static/media/screenshot2.9805ad57.png",
     "static/media/snowycabin.jpg": "/Testproj/static/media/snowycabin.2bfeab9c.jpg",
+    "static/media/stress.jpg": "/Testproj/static/media/stress.07859eb5.jpg",
     "static/media/yellowcabin.jpg": "/Testproj/static/media/yellowcabin.dc5c90b3.jpg",
     "static/media/yogi.png": "/Testproj/static/media/yogi.0aeada56.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f6b8adf4.js",
     "static/css/2.67e77fe5.chunk.css",
-    "static/js/2.cd1820d2.chunk.js",
-    "static/css/main.6c563ccd.chunk.css",
-    "static/js/main.4a146f66.chunk.js"
+    "static/js/2.ca37e78e.chunk.js",
+    "static/css/main.d914ecd3.chunk.css",
+    "static/js/main.ea137acc.chunk.js"
   ]
 }
