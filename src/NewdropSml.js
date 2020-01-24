@@ -4,23 +4,16 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-export const Dropstyle = {
-  color: '#1B6EB0',
-  backgroundColor:'transparent',
-  margin:'0px',
-  padding:'11px 9px',
-  height: 'auto',
-  border: '1px solid #1B6EB0'
-}
 
 
 export default class NewdropSml extends React.Component {
   constructor(props) {
     super(props);
 
+
     this.toggle = this.toggle.bind(this);
     this.state = {
-      dropdownOpen: false
+      dropdownOpen: false,
     };
   }
 
@@ -35,7 +28,7 @@ export default class NewdropSml extends React.Component {
 ;
     return (
       <Dropdown direction="down" size="sm" isOpen={this.state.dropdownOpen} toggle={this.toggle}> {/*this direction works*/}
-        <DropdownToggle style={Dropstyle}>
+        <DropdownToggle style={this.props.style}>
            <FontAwesomeIcon icon={faSearch} size="lg" />
         </DropdownToggle>
         <DropdownMenu right className = "mydrop">

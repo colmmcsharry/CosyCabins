@@ -9,6 +9,7 @@ body {
     position:relative;
     width:100vw;
     overflow-x: hidden !important;
+
 }
 /*this keeps the fog from causing a horizontal scrollbar*/
 
@@ -52,13 +53,14 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 
 .carimages .sec {border: 20px solid red;}
 
+.cabingallery {z-index:4;}
 
 /*NAVBAR BEGINS*/
 
 #Mynavbar {
   position:fixed;
   width:100%;
-  z-index:3;
+  z-index:1;
   top:0;
   transition: top 0.5s;
   display: grid;
@@ -85,8 +87,6 @@ animation: cssAnimation 0s 3s forwards;
 }
 
 .logo {
-  color:blue;
-
   margin-top: 10px;
   height: 60px;
   width: 60px;
@@ -106,15 +106,15 @@ grid-template-columns: 1fr 1fr;
   width:10px;
   position:relative;
   grid-column: 1;
-  color: green;
-  border-color:red;
+  
 }
 
 /* color: #1B6EB0; this is tyhe navy blue color*/
 
 .dropitems {color: #1B6EB0;
 font-family: quicksand;
-background-color: #FFFFF0;}
+background-color: #FFFFF0;
+font-size:16px;}
 
 .hamburger {
   position:relative;
@@ -124,13 +124,13 @@ background-color: #FFFFF0;}
 
 
 
-
+.Lwrapperdiv {z-index:4;}
 
 
 
 /*BLOG*/
 
-.blogscontainer {border: 1px solid green;
+.blogscontainer {
 padding:20px;
 padding-top:150px;}
 
@@ -175,24 +175,56 @@ height:auto;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 
-.footerlist {position: absolute;
+.footerlist {position:absolute;
+  display:inline-block;
+  font-weight: bold;
+  font-size:16px;
+  left:13px;
+  bottom:0px;
   text-align: left;
-  left:0px;
-  list-style-position: inside;
-  margin:0px;
-  margin-left:5px;
-  padding:0px;
+  color: #41403e;
+  list-style-type:none; 
 }
 
- {}
+.footerlist a {font-weight: bold;
+  font-size:16px !important;
+  color: #41403e;
+transition: transform 250ms;
+display:block;
+}
+
+.footerlist a:hover {transform: translateY(-5px);
+color:black;}
+
+.footersearch {position:absolute;
+font-size:30px;
+right:28px;
+bottom:15px;}
 
 /* SOCIAL STUFF */
 .social-container {
+  margin:0px;
   background: #FFFFF0;
-  padding: 10px 50px;
-  
+  padding: 20px 50px;
+  font-size:16px;  /*just change this on phone and the icons will get smaller too, as they change depending on the parent's fontsize*/
   position:absolute;
   left:0;
 bottom:0;
@@ -204,40 +236,60 @@ font-family: 'Patrick Hand SC';
    box-shadow: 0 0 2px black 
 }
 
+.social-container a {font-size:13px;}
+
 .social-container h3 {
   opacity: 0.8;
   font-size:17px;
 
 }
 a.social {
-  margin: 0 1rem;
+  margin: 0 10px;
   transition: transform 250ms;
   display: inline-block;
 }
 
 a.social:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
 }
 
-a.youtube {
+a.youtube, a.youtube:hover {
   color: #eb3223;
+  
 }
 
-a.facebook {
+a.facebook, a.facebook:hover  {
   color: #4968ad;
 }
 
-a.twitter {
+a.twitter, a.twitter:hover {
   color: #49a1eb;
 }
 
-a.instagram {
+a.instagram, a.instagram:hover {
   color: white;
   border-radius:15%;
-  height:33px;
+  height:27px;
 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
 
 /*SOCIAL STUFF ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -392,7 +444,7 @@ font-size: 20px;}
 /*can make this thick purely by increasing the border px*/
 button.lined.thin {
     font-family: 'Patrick Hand SC';
-   border: solid 3px #41403e;
+   border: solid 2.9px #41403e;
 align-self: center;
    background: transparent;
    padding: 10px;
@@ -410,6 +462,7 @@ align-self: center;
    border-bottom-left-radius:15px 255px;
    */
 }
+/*for some weird reason when the border is above 2.9px, a little box shows up inside it on phone*/
 
 button.lined.thin:hover {
    box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, .3);}
@@ -476,28 +529,150 @@ font-family: 'Patrick Hand SC';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*CABINS PROFILE CSS ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ABOUT PAGE CSS*/
+
+.aboutcontainer {padding: 15% 5%;
+
+font-family: Quicksand;
+font-color:#212529;}
+
+
+.quote  {font-family: 'Patrick Hand SC';
+   border: dashed 1.9px #41403e;
+  opacity:0.8;
+   background: transparent;
+   display:inline-block;
+   padding: 1% 0.5%;
+   width:30%;
+   color: #41403e;
+   font-size: 2vw;
+   letter-spacing: 2px;
+   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;}
+
+.nongridtext {display:inline-block;
+width:70%;}
+
+blockquote {font-family:cursive;}
+
+
+.aboutgrid {display:grid;
+  place-items:center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr) );
+  padding:20% 8%;
+  grid-row-gap: 100px;
+  }
+
+
+.abouttext {
+  
+  grid-column: span 2;
+  font-family: Quicksand;
+}
+
+.quotewrapper {border:1px dashed grey;
+  padding:40px;
+  font-family: 'cursive';
+   border:dashed 1.9px lightgrey;
+  opacity:0.8;
+   background: transparent;
+   color: #41403e;
+   font-size: 1.5vw;
+   letter-spacing: 2px;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+ }
+
+
+ .quotewrapper > span {
+  
+  font-family: cursive;
+  
+}
+
+
+
+
+.aboutgrid2 {display:flex;
+  
+  padding:10% 5%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+  }
+
+
+.abouttext2 {
+  flex-grow: 6;
+  color:blue;
+  font-family: Quicksand;
+  flex-basis:400px;
+}
+
+.quotewrapper2 {
+   flex-grow: 0;
+   flex-basis:200px;
+   margin:10px;
+ }
+
+.namewrapper {border:1px dashed grey;
+  padding:10% 5%;
+  font-family: 'cursive';
+   border:dashed 1.9px lightgrey;
+  opacity:0.8;
+   background: transparent;
+   color: blue;
+   font-size: 1em;
+   letter-spacing: 2px;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);}
+
+ .quotewrapper2 > span {
+  align-self:center;
+
+  font-family: cursive;
+  
+}
+
+
+.second {order:1;}
+
+/*ABOUT PAGE CSS ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -527,7 +702,6 @@ font-family: 'Patrick Hand SC';
 }
 
 .dropcontainer {grid-column-gap: 5px}
-
 }
 
 
@@ -642,14 +816,46 @@ height:auto;}
 .blogclass h1 {font-size: 35px;}
 
 
+.footerlist{
+  left:1px;}
+  /*this doesn't seem to be affecting anything*/
 
+.footerlist li {opacity:0.9;
+font-size:14px;}
+
+  .social-container a {font-size:10px;}
+
+  .social-container a.dropitems{font-size:14px;}
+  /*this is the size of the social media icons*/
+
+a.instagram {height: 21px;}  
+
+
+
+
+.aboutcontainer img {height:170px;
+  position:relative;
+  right:8px;
+}
+
+
+.quote {margin:20px 0px;
+  width:80%;}
+
+
+
+.second {order:0;}
 
 }
 
+
+
+
+
 /*blahhhhbuhnouihouhboubougiouhhouhoho*/
 
-
-
+/*color:#1B6EB0; this is the navy blue color for the logo and navbar*/
+/*  color: #41403e; what im using instead of black*/
 
 
 

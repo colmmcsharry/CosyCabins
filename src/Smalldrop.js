@@ -39,7 +39,7 @@ export default class Smalldrop extends React.Component {
         <DropdownMenu right className="mydrop"> {/*so for some reason when I add the style to this one, the menu stops going left*/}
         
           
-          <DropdownItem className="dropitems" >About</DropdownItem>
+          <DropdownItem tag={Link} to="/about" className="dropitems" >About</DropdownItem>
           <DropdownItem tag={Link} to="/Contact" className="dropitems" >Contact</DropdownItem>
           <DropdownItem tag={Link}to="/blogs" className="dropitems">Blog</DropdownItem>
 

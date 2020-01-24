@@ -4,8 +4,15 @@ import Blog from './Blog.js'
 import Blog2 from './Blog2.js'
 import Blog3 from './Blog3.js'
 
-export default function Blogs (){
-	return ( 
+
+
+export default class Blogs extends Component {
+
+componentDidMount() {
+    window.scrollTo(0, 0);
+};
+
+	render() { return ( 
 
 			<div className="blogscontainer">
 
@@ -22,5 +29,5 @@ export default function Blogs (){
 
 		)
 
-
+  }
 }

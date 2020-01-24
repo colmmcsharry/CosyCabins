@@ -12,6 +12,8 @@ class Blog extends Component {
     text: "oiii"
   };
 
+  
+
   onToggleVisibility = () =>
     this.setState({ visibility: !this.state.visibility });
 

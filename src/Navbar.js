@@ -3,12 +3,21 @@ import logo from "./pics/home.png";
 import React from "react";
 import { Link } from 'react-router-dom';
 import Smalldrop from "./Smalldrop";
-import NewdropSml from "./NewdropSml";
+import NewdropSml from "./NewdropSml.js";
+
+
+
+ const Dropstyle = {
+  color: '#1B6EB0',
+  backgroundColor:'transparent',
+  margin:'0px',
+  padding:'11px 9px',
+  height: 'auto',
+  border: '1px solid #1B6EB0'
+}
+
 
 export default class Navbar extends React.Component {
-
-
-
 
   render() {
     /*this is the new function*/
@@ -29,7 +38,7 @@ before the navbar slides up out of view*/
     var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos && document.body.scrollTop < 150 || document.documentElement.scrollTop < 150 ) {
+  if (prevScrollpos > currentScrollPos && document.body.scrollTop < 50 || document.documentElement.scrollTop < 50 ) {
     document.getElementById("Mynavbar").style.top = "0";
   } else {
     document.getElementById("Mynavbar").style.top = "-180px";
@@ -46,7 +55,7 @@ window.onscroll = function() {
         </div>
         <div className="dropcontainer">
           <div className="dropbar">
-            <NewdropSml />
+            <NewdropSml style={Dropstyle} />
           </div>
           <div className="hamburger">
             <Smalldrop />
