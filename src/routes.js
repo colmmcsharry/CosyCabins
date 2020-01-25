@@ -6,6 +6,7 @@ import Landing from './Landing.js'
 import Lightbox from './Lightbox.js'
 import Blogs from './Blogs.js'
 import About from './About.js'
+import Contact from './Contact.js'
 
 export default [
 
@@ -16,6 +17,7 @@ export default [
 			<Route key="dublin" path="/dublin" render={(props) => <Lightbox {...props} place="Dublin" />}    />,
 			<Route key="blogs" path="/blogs" component={Blogs} />, 
 			<Route key="about" path="/about" component={About} />,  
+			<Route key="contact" path='/contact' component={Contact} />
 
 
 

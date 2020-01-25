@@ -23,7 +23,7 @@ class Blog extends Component {
     return (
       <div className="blogclass">
         <h1>The benefits of Time in Nature</h1> <br/>
-        <p>In this blog we talk about the many benefits of time spent in nature. These include relaxation, happiness, and so much more.</p> <br/>
+        <p>Everyone knows it's good to get outside, but the health benefits of time in nature go way deeper than you think!</p> <br/>
         <button className="lined thin" onClick={this.onToggleVisibility}>
           {visibility ? "Hide blog" : "Show blog"}
         </button>

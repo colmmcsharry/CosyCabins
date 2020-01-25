@@ -28,7 +28,7 @@ export default function SocialFollow() {
     <span>
     <ul className="footerlist">
     <Link to ="/about"><li>About</li></Link>
-    <Link to ="/blogs"><li>Contact</li></Link>
+    <Link to ="/contact"><li>Contact</li></Link>
     <Link to ="/blogs"><li>Blog</li></Link>
     </ul>
       <h3 style={{fontFamily:'Patrick Hand SC', color:'#41403'}}>@CubbyCabins</h3>

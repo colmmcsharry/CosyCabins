@@ -34,12 +34,18 @@ export default function About () {
 		<p style= {{fontFamily:'Quicksand', fontSize:'1rem'}}>We create cosy little cabins in rustic locations where you can come and have some 'you-time'</p>
 
 
-		<figure><img className="ireland" src={ireland} height='400px' width= '400px'/><figcaption style={{position:'relative', bottom: '3rem',fontFamily:'Quicksand', fontSize:'.9rem'}}>No matter where you live in Ireland
+		<figure><img className="ireland" src={ireland} height='400px' width= '400px'/><figcaption style={{position:'relative', bottom: '2rem',fontFamily:'Quicksand', fontSize:'.9rem'}}>No matter where you live in Ireland
 		 you can find a Cubby Cabin within an hour's drive</figcaption></figure>
 			<br/>
 		
 		<p style= {{fontFamily:'Quicksand', fontSize:'1rem'}}> Our cabins are easily booked, easily accessed and easily affordable!</p><br/>	
-	<img className="highimage" src={CouldbeYou}/>			
+	<img className="highimage" src={CouldbeYou}/>		
+
+
+
+
+
+
 	
 		<br/>
 		<div className="aboutgrid2">

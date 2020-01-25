@@ -141,8 +141,8 @@ font-family: 'Patrick Hand SC';
    border-bottom: dashed 1px #41403e;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;}
 
-.blogclass h1 {font-family: Quicksand;
-font-weight: bold;}
+.blogclass h1 {font-family: Patrick Hand SC;
+}
 
 .blogclass p {font-family: Quicksand;}
 
@@ -609,10 +609,32 @@ width:100%;}
 
 .second {order:1;}
 
+
+
+
+/*funky zoominout begins*/
+
+
+
+
+
+/*funky ends*/
+
+
+
 /*ABOUT PAGE CSS ENDS*/
 
 
 
+/*CONTACT PAGE*/
+
+.contactform {padding-top:160px;
+padding-left:5%;
+padding-right:5%;
+
+font-size:1.2rem;}
+
+/*CONTACT PAGE END*/
 
 
 
@@ -698,14 +720,14 @@ width:100%;}
   .resptext {
 display:block;
 position:relative;
-    font-size:18px;
+    font-size:20px;
     line-height:25px;   
     bottom:400px;}
 
 
   .resptexttwo {
   position:relative;
-    font-size:18px;
+    font-size:20px;
     line-height:25px;
     bottom: 300px;}
 
@@ -811,10 +833,10 @@ width:70%;}
   padding-top:30%;
   padding-left:8%;
   padding-right:8%;
-  font-size:.8rem;
+  font-size:1rem;
 }
 
-
+figcaption {bottom:10rem;}
 
 
 }
