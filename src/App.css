@@ -9,7 +9,7 @@ body {
     position:relative;
     width:100vw;
     overflow-x: hidden !important;
-
+    
 }
 /*this keeps the fog from causing a horizontal scrollbar*/
 
@@ -551,63 +551,9 @@ font-family: 'Patrick Hand SC';
 
 .aboutcontainer {padding: 15% 5%;
 
-font-family: Quicksand;
-font-color:#212529;}
-
-
-.quote  {font-family: 'Patrick Hand SC';
-   border: dashed 1.9px #41403e;
-  opacity:0.8;
-   background: transparent;
-   display:inline-block;
-   padding: 1% 0.5%;
-   width:30%;
-   color: #41403e;
-   font-size: 2vw;
-   letter-spacing: 2px;
-   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
-   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;}
-
-.nongridtext {display:inline-block;
-width:70%;}
-
-blockquote {font-family:cursive;}
-
-
-.aboutgrid {display:grid;
-  place-items:center;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr) );
-  padding:20% 8%;
-  grid-row-gap: 100px;
-  }
-
-
-.abouttext {
-  
-  grid-column: span 2;
-  font-family: Quicksand;
-}
-
-.quotewrapper {border:1px dashed grey;
-  padding:40px;
-  font-family: 'cursive';
-   border:dashed 1.9px lightgrey;
-  opacity:0.8;
-   background: transparent;
-   color: #41403e;
-   font-size: 1.5vw;
-   letter-spacing: 2px;
-   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
- }
-
-
- .quotewrapper > span {
-  
-  font-family: cursive;
-  
-}
-
+font-family: Patrick Hand SC;
+font-color:#212529;
+font-size:1.3rem;}
 
 
 
@@ -622,7 +568,7 @@ blockquote {font-family:cursive;}
 
 .abouttext2 {
   flex-grow: 6;
-  color:blue;
+  color: #41403e;;
   font-family: Quicksand;
   flex-basis:400px;
 }
@@ -631,26 +577,34 @@ blockquote {font-family:cursive;}
    flex-grow: 0;
    flex-basis:200px;
    margin:10px;
+   font-family: Patrick Hand SC;
  }
 
 .namewrapper {border:1px dashed grey;
   padding:10% 5%;
-  font-family: 'cursive';
+  font-family: Patrick Hand SC;
    border:dashed 1.9px lightgrey;
   opacity:0.8;
    background: transparent;
-   color: blue;
+   color:  #41403e;;
    font-size: 1em;
    letter-spacing: 2px;
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);}
 
- .quotewrapper2 > span {
+ .quotewrapper2 span {
   align-self:center;
-
-  font-family: cursive;
-  
+  font-family: cursive;  
 }
+
+.highimage {height:700px;
+width:90%;}
+
+.ireland {padding-bottom: 0px;
+display:inline-block;}
+
+.einstein {height:700px;
+width:100%;}
 
 
 .second {order:1;}
@@ -703,6 +657,18 @@ blockquote {font-family:cursive;}
 
 .dropcontainer {grid-column-gap: 5px}
 }
+
+/*ipads*/
+@media only screen and (max-width: 767px) {
+.second {order:0;}
+.einstein, .highimage {height:500px;}
+
+.namewrapper {margin-top:50px;
+              margin-bottom:30px;
+              width:110%;}
+
+}
+
 
 
 
@@ -838,17 +804,21 @@ a.instagram {height: 21px;}
   right:8px;
 }
 
+img.ireland {height:20em;
+width:70%;}
 
-.quote {margin:20px 0px;
-  width:80%;}
-
-
-
-.second {order:0;}
-
+.aboutcontainer {
+  padding-top:30%;
+  padding-left:8%;
+  padding-right:8%;
+  font-size:.8rem;
 }
 
 
+
+
+}
+/*END OF MEDIA QUERIES*/
 
 
 
