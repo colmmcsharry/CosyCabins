@@ -634,6 +634,8 @@ padding-right:5%;
 
 font-size:1.2rem;}
 
+
+
 /*CONTACT PAGE END*/
 
 
@@ -838,6 +840,7 @@ width:70%;}
 
 figcaption {bottom:10rem;}
 
+.namewrapper {opacity:1;}
 
 }
 /*END OF MEDIA QUERIES*/
