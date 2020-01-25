@@ -20,7 +20,7 @@ body {
 
 
 #maincontainer {
-  background-image: url('./pics/cabinlakeshopped2.jpg');
+  background-image: url('./cabinlakeshopped.jpg');
 height:120vh;
 width:100vw;
 overflow-x: hidden !important;
@@ -216,8 +216,8 @@ color:black;}
 
 .footersearch {position:absolute;
 font-size:30px;
-right:28px;
-bottom:15px;}
+right:4%;
+bottom:22%;}
 
 /* SOCIAL STUFF */
 .social-container {
@@ -300,14 +300,14 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-font-family: 'Patrick Hand SC';
-font-size: '19px'}
+font-family: Patrick Hand SC;
+font-size: 20px}
 
 .intro {
 margin-top:400px;
 margin-bottom:400px;
 font-family: 'Patrick Hand SC';
-font-size:20px;}
+font-size:22px;}
 
 
 
@@ -414,7 +414,7 @@ grid-template-columns: 1fr 1fr;}
 font-family: Patrick Hand SC;
 line-height:50px;
 margin-top:200px;
-font-size:20px;}
+font-size:22px;}
 
 .zoomabletwo {
   grid-column:2;
@@ -428,14 +428,14 @@ font-size:20px;}
 font-family: Patrick Hand SC;
 line-height:50px;
 margin-top:100px;
-font-size:20px;}
+font-size:22px;}
 
    .closing {position:relative;
 top:300px;
 left:50%;
 margin:150px 0px;
 font-family: 'Patrick Hand SC';
-font-size: 20px;}
+font-size: 22px;}
 
 
 
@@ -489,8 +489,8 @@ padding: 50px;
 padding-top:200px;
 }
 
-.cabinprofilewrapper h1 {font-family: Quicksand;
-font-weight:bold;}
+.cabinprofilewrapper h1 {font-family: Patrick Hand SC;
+}
 
 .cabinprofilewrapper p {font-family: Quicksand;
   padding:50px 0px;

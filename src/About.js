@@ -1,7 +1,7 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import ReactDOM from 'react-dom';
 import stress from './stress.jpg'
-import ireland from './ireland.png'
+import ireland from './Irelandsharp.png'
 import CouldbeYou from './CouldbeYou.png'
 import einstein from './einstein.jpg'
 /*the below way is the new function/hooks way of doing componentDidMount, same as I did it in the Blogs component*/
@@ -43,14 +43,19 @@ export default function About () {
 	
 		<br/>
 		<div className="aboutgrid2">
-					<div className="abouttext2"> here is the example text for the paragraph.<br/>
-					here is the example text for the paragraph.<br/><br/>	
-					here is the example text for the paragraph.here is the example text<br/>  
-					here is the example text for the paragraph. example text for <br/>
-					here is the example text for the paragraph.example text for the<br/><br/>
-					here is the example text for the paragraph.<br/>
-					here is the example text for the paragraph.example text for the h<br/>
-					 here is the example text for the paragraph.<br/>
+					<div className="abouttext2"> In the busy world of today<br/>
+					it's never been more important to escape into nature.<br/><br/>	
+					Study after study shows the healing power of time in nature;<br/>  
+					reducing stress and sickness, increasing self-esteem, improved sleep... <br/><br/>
+
+					But one can't just waltz out the door and into the elements... <br/><br/>
+
+					To truly enjoy the benefits, you need to be prepared.<br/>
+					Rain, wind, thunderstorms, snowstorms... can all ruin your lovely day out.<br/><br/>
+					Well with Cubby Cabins you can nip inside, stick the kettle on, put your feet up<br/>
+					and the sounds of the raindrops will be music to your ears.
+
+					
 					 </div>
 					 <div className="quotewrapper2"><div className="namewrapper"> <span>The earth has music for those who listen <br/></span> <br/>- William Shakespeare</div> 
 					 </div>
@@ -59,14 +64,19 @@ export default function About () {
 
 <br/> <br/>
 	<div className="aboutgrid2">
-					<div className="abouttext2 second"> here is the example text for the paragraph.<br/>
-					here is the example text for the paragraph.<br/><br/>	
-					here is the example text for the paragraph.here is the example text<br/>  
-					here is the example text for the paragraph. example text for <br/>
-					here is the example text for the paragraph.example text for the<br/><br/>
-					here is the example text for the paragraph.<br/>
-					here is the example text for the paragraph.example text for the h<br/>
-					 here is the example text for the paragraph.<br/>
+					<div className="abouttext2 second">  
+
+					Cubby Cabins aren't just for those looking to relax.<br/>
+					They can be a hub of productivity too.<br/><br/>
+					 Many of the great minds found inspiration in nature.<br/>
+					Einstein, Shakespeare, Picasso, Da Vinci...<br/>
+					Their most brilliant ideas came from time in the wilderness<br/><br/>
+					Having time alone to your thoughts, free of distraction <br/>
+					is a rare and valuable commodity in the modern world<br/><br/>
+					So come try a cabin for yourself, and see what happens.<br/>
+					You might find that Eureka moment, or you might just find yourself.<br/><br/>
+					And you don't have to get wet in the process!
+
 					 </div>
 					 <div className="quotewrapper2"><div className="namewrapper"> <span>Without great solitude, no great work is possible <br/></span> <br/>- Pablo Picasso</div> 
 					 </div>

@@ -1,7 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { render } from 'react-dom';
-import { BrowserRouter as HashRouter, Route, Link } from "react-router-dom";
 /*import Gallery from 'react-grid-gallery';*/
 import './App.css'
 import { photos } from "./photos";
@@ -115,8 +112,6 @@ return (
     <br/> <br/> <br/> <br/> 
     <div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
 
-    <br/> <br/>
-     <button className="lined thin"> Testimonials </button> {/*make this button a function that when clicked, randomly loads 3 testimonials below it*/}
 
     <br/> <br/> 
 
