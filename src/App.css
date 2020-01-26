@@ -18,6 +18,8 @@ body {
  padding-bottom:150px;
 }
 
+#einsteinmob {display:none;
+}
 
 #maincontainer {
   background-image: url('./cabinlakeshopped.jpg');
@@ -578,30 +580,52 @@ font-size:1.3rem;}
    flex-basis:200px;
    margin:10px;
    font-family: Patrick Hand SC;
- }
+  width:max-content;
+  padding:5%;
 
-.namewrapper {border:1px dashed grey;
+}
+
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}
+ 
+@media screen and (min-width: 800px) { 
+  .namewrapper.pablo {
+  position:relative;
+  right:120px;
+  width:25vw;}
+}
+
+.namewrapper {
   padding:10% 5%;
-  font-family: Patrick Hand SC;
-   border:dashed 1.9px lightgrey;
-  opacity:0.8;
+  font-family: cursive;
+   border:dashed 1px lightgrey;
+    
    background: transparent;
-   color:  #41403e;;
-   font-size: 1em;
+   color:  #41403e;
+   font-size: 1.2em;
    letter-spacing: 2px;
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);}
+   box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+ animation: fadeinout 10s linear infinite;
+    opacity: 0.3;
+  width:max-content;}
 
  .quotewrapper2 span {
   align-self:center;
-  font-family: cursive;  
+  font-family: cursive; 
+    color:  #41403e;
+  animation: fadeinout 10s linear infinite;
+    opacity: 0.3;
+    font-size:1.5rem;
+    width:max-content;
 }
 
 .aboutcontainer h2 {position:relative;
 top:20%;}
 
-.highimage {height:700px;
-width:90%;}
+
 
 .ireland {padding-bottom: 0px;
 display:inline-block;}
@@ -614,32 +638,28 @@ border: solid 3px #41403e;
 
 .second {order:1;}
 
-.phonebrain {border: solid 3px #41403e;
-   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  height:20rem;
-  width:24rem;}
+
 
 
 /*funky zoominout begins*/
 #could {color:white;
-  font-size:.8rem;
+  font-size:.5rem;
 position:absolute; 
 bottom:16%;
-left:47%;
+left:49%;
+font-family:Quicksand;
 }
 
 #mainhighcontainer
-  { height:600px;
-    width:800px;
+  { height:100vh;
+    width:100vw;
     overflow: hidden;
-     border: solid 3px #41403e;
-   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     position: relative;
     margin: auto;
   }
   #highcontainer
-  { height:600px;
-    width:800px;
+  { height:100vh;
+    width:100vw;
     
     position: relative;
     display: flex;
@@ -648,7 +668,7 @@ left:47%;
     background-image: url("./pics/cabinhigh.jpg");
    background-position: center;
   background-repeat: no-repeat;
-  background-size: 800px 600px;  
+  background-size: 100vw 100vh;  
     animation: zoomin 10s ease-in infinite;
   transition: all .5s ease-in-out;
   overflow: hidden;
@@ -732,12 +752,16 @@ font-size:1.2rem;}
 
 /*ipads*/
 @media only screen and (max-width: 767px) {
-.second {order:0;}
-.einstein, .highimage {height:500px;}
 
-.namewrapper {margin-top:50px;
-              margin-bottom:30px;
-              width:110%;}
+.second {order:0;}
+.einstein,  {height:500px;}
+
+.namewrapper {padding:5%;
+  margin-top:15%;
+  margin-right:70px;
+ 
+
+             }
 
 }
 
@@ -868,7 +892,11 @@ font-size:14px;}
 
 a.instagram {height: 21px;}  
 
-
+.namewrapper{
+  width:70vw;
+position:relative;
+left:10%;
+}
 
 
 .aboutcontainer img {height:170px;
@@ -888,55 +916,27 @@ width:70%;}
 
 figcaption {bottom:10rem;}
 
-.namewrapper {opacity:1;}
+.Lwrapperdiv {margin-top:10rem;}
 
-.phonebrain {height:10rem;
-  width:12rem;}
-
-
-#could {color:white;
-  font-size:.8rem;
+#could {
+  font-family:quicksand;
+  color:white;
+  font-size:.4rem;
 position:absolute; 
-bottom:16%;
-left:42%;
+/*bottom:16%;*/
+left:44%;
 }
 
-#mainhighcontainer
-  { height:300px;
-    width:400px;
-    
- border:none;
-  border-radius:5px;
-    position: relative;
-   right:33px;
-   margin:0px;
-  }
-  #highcontainer
-  { height:300px;
-    width:400px;
-    
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("./pics/cabinhigh.jpg");
-   background-position: center;
-  background-repeat: no-repeat;
-  background-size: 400px 300px;  
-    animation: zoomin 10s ease-in infinite;
-  transition: all .5s ease-in-out;
-  overflow: hidden;
-    /* transform: scale(3.0); */
-    /* transform: scale(1.0); */
-    transform-origin: 50% 90%;
-  }
-  @keyframes zoomin {
-  0% {transform: scale(1);}
-  50% {transform: scale(3.9);}
-  100% {transform: scale(1);}
-} /*End of Zoom in Keyframes */
+.einstein
+{display:none;}
 
-
+#einsteinmob {width:85vw;
+  display: block !important;
+  height:auto;
+  border: solid 3px #41403e;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+   margin-top:15% 
+}
 
 }
 /*END OF MEDIA QUERIES*/
@@ -1013,13 +1013,10 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .responsive {
   padding: 0 6px;
-  float: left;
+  display:inline-grid;
   width: 24.99999%;
 }
 

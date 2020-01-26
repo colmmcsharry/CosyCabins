@@ -4,7 +4,8 @@ import stress from './stress.jpg'
 import ireland from './Irelandsharp.png'
 import CouldbeYou from './CouldbeYou.png'
 import einstein from './einstein.jpg'
-import phonebrain from './phonebrain.jpg'
+import einsteinmob from './einsteinmob.jpg'
+
 import ResponsiveGallery from './ResponsiveGallery.js'
 /*the below way is the new function/hooks way of doing componentDidMount, same as I did it in the Blogs component*/
 
@@ -22,7 +23,7 @@ export default function About () {
 		<React.Fragment>
 		<div id="mainhighcontainer" >
 		<div id="highcontainer" >
-			<div id="could">This could be you <br/>{' \u2199 '}</div>
+			<div id="could">This could be you </div>
 		</div>
 	</div>		
 
@@ -51,7 +52,7 @@ export default function About () {
 
 	
 		<br/> <br/>
-			<h2>Who we're for, and why!</h2>
+			<h2>Why come to a cabin?</h2>
 		<div className="aboutgrid2">
 
 					<div className="abouttext2"> In the busy world of today<br/>
@@ -59,7 +60,7 @@ export default function About () {
 					Study after study shows the healing power of time in nature;<br/>  
 					reducing stress and sickness, increasing self-esteem, improved sleep... <br/><br/>
 
-					But one can't just waltz out the door and into the elements... <br/><br/>
+					<span style={{fontWeight: 'bolder'}}>But one can't just waltz out the door and into the elements... </span><br/><br/>
 
 					To truly enjoy the benefits, you need to be prepared.<br/>
 					Rain, wind, thunderstorms, snowstorms... can all ruin your lovely day out.<br/><br/>
@@ -72,8 +73,8 @@ export default function About () {
 					 </div>
 
 		</div>
-		<img className="phonebrain" src={phonebrain}/>
-<br/> <br/>
+		
+<br/><ResponsiveGallery /> <br/>
 	<div className="aboutgrid2">
 					<div className="abouttext2 second">  
 
@@ -89,15 +90,15 @@ export default function About () {
 					And you don't have to get wet in the process!
 
 					 </div>
-					 <div className="quotewrapper2"><div className="namewrapper"> <span>Without great solitude, no great work is possible <br/></span> <br/>- Pablo Picasso</div> 
+					 <div className="quotewrapper2"><div className="namewrapper pablo"> <span>Without great solitude, no great work is possible <br/></span> <br/>- Pablo Picasso</div> 
 					 </div>
 
 		</div>
 
 		<img className="einstein" src={einstein}/>
+		<img id="einsteinmob" src={einsteinmob}/>
 
 
-<ResponsiveGallery />
 
 </div>
 </React.Fragment>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import ReactDOM from 'react-dom';
 import Blog from './Blog.js'
 import Blog2 from './Blog2.js'
@@ -6,13 +6,17 @@ import Blog3 from './Blog3.js'
 
 
 
-export default class Blogs extends Component {
+export default function Blogs  () {
 
-componentDidMount() {
-    window.scrollTo(0, 0);
-};
+useEffect(() => {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+      });
+  }, []);
 
-	render() { return ( 
+	 return ( 
 
 			<div className="blogscontainer">
 
@@ -29,5 +33,5 @@ componentDidMount() {
 
 		)
 
-  }
+  
 }

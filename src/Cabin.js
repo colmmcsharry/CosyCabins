@@ -26,8 +26,9 @@ return (
 	  </p>
 
 	 <ul style={{listStyleType : "none"}}>
-	 	<li> <span style={{fontFamily : 'EB Garamond', fontWeight: 'bold'}} > Price: </span> {props.price} </li>
-	 	<li> <span style={{fontFamily : 'EB Garamond', fontWeight: 'bold'}} >Facilities: </span> {props.facilities} </li>
+	 	<li> <span style={{fontFamily : 'EB Garamond', fontWeight: 'bold'}} > Price: </span> {props.price} </li><br/>
+	 	<li> <span style={{fontFamily : 'EB Garamond', fontWeight: 'bold'}} >Facilities: </span> {props.facilities} </li><br/>
+	 	<li> <span style={{fontFamily : 'EB Garamond', fontWeight: 'bold'}} >Nearby: </span> {props.nearby} </li>
 	 </ul>
 
 	 	<Galrender cityphotos={props.photos}/>

@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import phonebrain from './phonebrain.jpg'
-
+import freelanceworkers from './freelanceworkers.png'
+import couples from './couples.png'
+import marshmallow from './marshmallow.jpg'
 
 
 
@@ -9,13 +11,13 @@ export default function ResponsiveGallery (){
 
 return (
 	<React.Fragment>
-
+			<h2>Some of our fans</h2>
 			<div className="responsive">
 			  <div className="gallery">
 			    
-			      <img src={phonebrain} alt="Cinque Terre" width="600" height="400"/>
+			      <img src={freelanceworkers} alt="Cinque Terre" width="600" height="400"/>
 			    
-			    <div className="desc">first</div>
+			    <div className="desc">Freelance workers</div>
 			  </div>
 			</div>
 
@@ -23,9 +25,18 @@ return (
 			<div className="responsive">
 			  <div className="gallery">
 			    
-			      <img src={phonebrain} alt="" width="600" height="400"/>
+			      <img src={couples} alt="" width="600" height="400"/>
 			    
-			    <div className="desc">Second</div>
+			    <div className="desc">Couples</div>
+			  </div>
+			</div>
+
+			<div className="responsive">
+			  <div className="gallery">
+			    
+			      <img src={marshmallow} alt="" width="600" height="400"/>
+			    
+			    <div className="desc">Marshmallow enthusiasts</div>
 			  </div>
 			</div>
 
@@ -34,16 +45,7 @@ return (
 			    
 			      <img src={phonebrain} alt="" width="600" height="400"/>
 			    
-			    <div className="desc">Third</div>
-			  </div>
-			</div>
-
-			<div className="responsive">
-			  <div className="gallery">
-			    
-			      <img src={phonebrain} alt="" width="600" height="400"/>
-			    
-			    <div className="desc">fourth
+			    <div className="desc">Deep thinkers
 			  </div>
 			</div>
 </div>
