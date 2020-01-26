@@ -597,6 +597,9 @@ font-size:1.3rem;}
   font-family: cursive;  
 }
 
+.aboutcontainer h2 {position:relative;
+top:20%;}
+
 .highimage {height:700px;
 width:90%;}
 
@@ -604,16 +607,61 @@ width:90%;}
 display:inline-block;}
 
 .einstein {height:700px;
-width:100%;}
+width:100%;
+border: solid 3px #41403e;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;}
 
 
 .second {order:1;}
 
-
+.phonebrain {border: solid 3px #41403e;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  height:20rem;
+  width:24rem;}
 
 
 /*funky zoominout begins*/
+#could {color:white;
+  font-size:.8rem;
+position:absolute; 
+bottom:16%;
+left:47%;
+}
 
+#mainhighcontainer
+  { height:600px;
+    width:800px;
+    overflow: hidden;
+     border: solid 3px #41403e;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    position: relative;
+    margin: auto;
+  }
+  #highcontainer
+  { height:600px;
+    width:800px;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pics/cabinhigh.jpg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px 600px;  
+    animation: zoomin 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+    /* transform: scale(3.0); */
+    /* transform: scale(1.0); */
+    transform-origin: 50% 90%;
+  }
+  @keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(2.9);}
+  100% {transform: scale(1);}
+} /*End of Zoom in Keyframes */
+  
 
 
 
@@ -842,6 +890,54 @@ figcaption {bottom:10rem;}
 
 .namewrapper {opacity:1;}
 
+.phonebrain {height:10rem;
+  width:12rem;}
+
+
+#could {color:white;
+  font-size:.8rem;
+position:absolute; 
+bottom:16%;
+left:42%;
+}
+
+#mainhighcontainer
+  { height:300px;
+    width:400px;
+    
+ border:none;
+  border-radius:5px;
+    position: relative;
+   right:33px;
+   margin:0px;
+  }
+  #highcontainer
+  { height:300px;
+    width:400px;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./pics/cabinhigh.jpg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px 300px;  
+    animation: zoomin 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
+    /* transform: scale(3.0); */
+    /* transform: scale(1.0); */
+    transform-origin: 50% 90%;
+  }
+  @keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(3.9);}
+  100% {transform: scale(1);}
+} /*End of Zoom in Keyframes */
+
+
+
 }
 /*END OF MEDIA QUERIES*/
 
@@ -859,6 +955,93 @@ figcaption {bottom:10rem;}
  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for the responsive media gallery*/
+
+
+div.gallery {
+  border-bottom: solid 2px #41403e;
+    background-color:#FFFFF0;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border: solid 2px #41403e;
+   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 3px 0;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 

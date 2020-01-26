@@ -4,6 +4,8 @@ import stress from './stress.jpg'
 import ireland from './Irelandsharp.png'
 import CouldbeYou from './CouldbeYou.png'
 import einstein from './einstein.jpg'
+import phonebrain from './phonebrain.jpg'
+import ResponsiveGallery from './ResponsiveGallery.js'
 /*the below way is the new function/hooks way of doing componentDidMount, same as I did it in the Blogs component*/
 
 export default function About () {
@@ -17,6 +19,12 @@ export default function About () {
   }, []);
 
 	return (
+		<React.Fragment>
+		<div id="mainhighcontainer" >
+		<div id="highcontainer" >
+			<div id="could">This could be you <br/>{' \u2199 '}</div>
+		</div>
+	</div>		
 
 <div className="aboutcontainer">
 		<h1> About CubbyCabins</h1> <br/><br/>
@@ -39,16 +47,13 @@ export default function About () {
 			<br/>
 		
 		<p style= {{fontFamily:'Quicksand', fontSize:'1rem'}}> Our cabins are easily booked, easily accessed and easily affordable!</p><br/>	
-	<img className="highimage" src={CouldbeYou}/>		
-
-
-
-
-
+	
 
 	
-		<br/>
+		<br/> <br/>
+			<h2>Who we're for, and why!</h2>
 		<div className="aboutgrid2">
+
 					<div className="abouttext2"> In the busy world of today<br/>
 					it's never been more important to escape into nature.<br/><br/>	
 					Study after study shows the healing power of time in nature;<br/>  
@@ -67,7 +72,7 @@ export default function About () {
 					 </div>
 
 		</div>
-
+		<img className="phonebrain" src={phonebrain}/>
 <br/> <br/>
 	<div className="aboutgrid2">
 					<div className="abouttext2 second">  
@@ -91,7 +96,11 @@ export default function About () {
 
 		<img className="einstein" src={einstein}/>
 
+
+<ResponsiveGallery />
+
 </div>
+</React.Fragment>
 		)
 
 }
