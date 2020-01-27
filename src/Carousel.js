@@ -66,7 +66,7 @@ class MyCarousel extends React.Component {
         onSlideChanged={this.onSlideChanged}
       >
         <div className="Mypicsclass">
-        <Link to="/designers">
+        <Link to="/dublin">
          
             <img
               className="carimages"
@@ -78,7 +78,7 @@ class MyCarousel extends React.Component {
           </Link>
         </div>
         <div className="Mypicsclass">
-        <Link to="/builders">
+        <Link to="/dublin">
          
             <img
               className="carimages"
@@ -92,7 +92,7 @@ class MyCarousel extends React.Component {
           </Link>
         </div>
         <div className="Mypicsclass">
-        <Link to="/chefs">
+        <Link to="/dublin">
          
             <img
               className="carimages one"
@@ -104,7 +104,7 @@ class MyCarousel extends React.Component {
           </Link>
         </div>
         <div className="Mypicsclass">
-        <Link to="/accountants">
+        <Link to="/dublin">
          
             <img
               className="carimages two"
@@ -116,7 +116,7 @@ class MyCarousel extends React.Component {
           </Link>
         </div>
         <div className="Mypicsclass">
-        <Link to="/clowns">
+        <Link to="/dublin">
          
             <img
               className="carimages three"

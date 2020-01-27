@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
+
 export default function Contact () {
 
 
@@ -15,6 +16,9 @@ export default function Contact () {
   return (
     <Form>
     <div className="contactform" style={{fontFamily:'Patrick Hand SC', color: '#41403e'}}>
+
+    
+
 		      <FormGroup>
 		        <Label for="exampleEmail"><h1 style={{fontFamily:'Patrick Hand SC', color: '#41403e'}}>Contact Cubby Cabins</h1></Label> <br/> <br/>
 		      </FormGroup>
