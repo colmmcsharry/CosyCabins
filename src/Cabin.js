@@ -17,11 +17,6 @@ return (
 
 	<h1> {props.title} </h1>
 	<br/>
-	<ModalImage
-  className="small"
-  small={'https://aautio.github.io/react-modal-image/example_img_small.jpg'}
-  large={'https://aautio.github.io/react-modal-image/example_img_large.jpg'}  
-/>
 	<div className="cabinzoomable"> <SingleSource src={props.mainimg} /></div>
 	 
 	 <p> This Cubby Cabin is only 30 mins drive away from Dublin, but it feels like a totally different world!

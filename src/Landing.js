@@ -71,15 +71,15 @@ return (
     <img className="swipe" src={swipe}/>
       
 
-<ModalImage
-  className="small zindex"
-  small={'https://aautio.github.io/react-modal-image/example_img_small.jpg'}
-  large={'https://aautio.github.io/react-modal-image/example_img_large.jpg'}  
-/>
+
 
 
      <div className="galimg">
-          <div className="zoomableone">   </div>
+          <div className="zoomableone"> <ModalImage
+  className=" zindex carimages"
+  small={mountaincabin}
+  large={mountaincabin}  
+/>  </div>
 
     <div className="resptext"> Our cabins are the perfect getaway <br/> 
         Out of the city, but not out of reach blah <br/>
