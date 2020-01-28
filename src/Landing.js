@@ -91,7 +91,7 @@ return (
 
 
      <div className="galimg">
-            <div className="zoomabletwo" tabindex="-1"><SingleSource src={inside} /></div>
+            <div className="zoomabletwo" tabIndex="-1"><SingleSource src={inside} /></div>
     <div className="resptexttwo"> We have cabins in every province <br/> 
         Fully heated, fully equipped, fully private <br/>
          <br/></div>

@@ -476,7 +476,7 @@ button.lined.thin:hover {
 
 
 
-
+.small {width:200px}
 
 
 
@@ -495,7 +495,7 @@ padding-top:200px;
 .cabinprofilewrapper h1 {font-family: Patrick Hand SC;
 }
 
-.cabinprofilewrapper p {font-family: Quicksand;
+.cabinprofilewrapper p {font-family: Oswald;
   padding:50px 0px;
 }
 
