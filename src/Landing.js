@@ -75,11 +75,11 @@ return (
 
 
      <div className="galimg">
-          <div className="zoomableone">  <ModalImage
+          <div className="zoomableone" tabindex="-1"> <ModalImage
   className="carimages"
   small={mountaincabin}
   large={mountaincabin}  
-/>;</div>
+/>  </div>
 
     <div className="resptext"> Our cabins are the perfect getaway <br/> 
         Out of the city, but not out of reach <br/>
@@ -91,7 +91,7 @@ return (
 
 
      <div className="galimg">
-            <div className="zoomabletwo"><SingleSource src={inside} /></div>
+            <div className="zoomabletwo" tabindex="-1"><SingleSource src={inside} /></div>
     <div className="resptexttwo"> We have cabins in every province <br/> 
         Fully heated, fully equipped, fully private <br/>
          <br/></div>
