@@ -484,6 +484,8 @@ button.lined.thin:hover {
 
 /*ALL CABINS PROFILE CSS */
 
+.zindex {z-index:6;
+position:relative;}
 
 .cabinprofilewrapper
 
