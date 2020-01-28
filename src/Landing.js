@@ -1,6 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 /*import Gallery from 'react-grid-gallery';*/
-import './App.css'
 import { photos } from "./photos";
 import SingleSource from './SingleSource.js'
 import cabinnight from './pics/cabinnight.jpg'
@@ -120,6 +120,12 @@ return (
 
 
     <br/> <br/> 
+
+    <ModalImage
+  className="small"
+  small={'https://aautio.github.io/react-modal-image/example_img_small.jpg'}
+  large={'https://aautio.github.io/react-modal-image/example_img_large.jpg'}  
+/>
 
 
     </React.Fragment>
