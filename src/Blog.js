@@ -34,10 +34,10 @@ class Blog extends Component {
 
           Spending at least two hours in nature per week can promote health and well-being.
           <ModalImage
-  className="carimages"
-  small={mountaincabin}
-  large={mountaincabin}  
-/> 
+  className="small"
+  small={'https://aautio.github.io/react-modal-image/example_img_small.jpg'}
+  large={'https://aautio.github.io/react-modal-image/example_img_large.jpg'}  
+/>
 A study published in the journal Scientific Reports on Thursday found that people can benefit from spending at least 120 minutes a week in natural environments.
  Researchers found that people who met the threshold reported better health and higher psychological well-being than people who did not spend any time in nature during the week.
 <ModalImage
