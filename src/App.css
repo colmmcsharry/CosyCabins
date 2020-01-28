@@ -476,7 +476,12 @@ button.lined.thin:hover {
 
 
 
-.small {width:200px}
+.small {width:35vw}
+
+.cabinmain {
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:2px solid #41403e;;
+}
 
 
 
@@ -612,7 +617,7 @@ font-size:1.4rem;}
    letter-spacing: 2px;
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
- animation: fadeinout 10s linear infinite;
+ animation: fadeinout 6s linear infinite;
     opacity: 0.01;
   width:20vw;}
 
@@ -847,6 +852,8 @@ z-index: 3;}
 .mainimg {width: 90%;
 margin:50px 10px;
 }
+
+.small {width:75vw}
 
 .cabinprofilewrapper 
 {font-size:14px;

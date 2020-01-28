@@ -17,7 +17,13 @@ return (
 
 	<h1> {props.title} </h1>
 	<br/>
-	<div className="cabinzoomable"> <SingleSource src={props.mainimg} /></div>
+	
+	<div className="cabinzoomable"> <ModalImage
+  className=" zindex small cabinmain"
+  small={props.mainimg}
+  large={props.mainimg} 
+  hideDownload={true}
+/> </div>
 	 
 	 <p> This Cubby Cabin is only 30 mins drive away from Dublin, but it feels like a totally different world!
 	 <br/> <br/> Tucked away in an evergreen forest, surrounded by the sounds of nature, you'll be able to fully unwind.

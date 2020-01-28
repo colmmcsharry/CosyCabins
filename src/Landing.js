@@ -79,10 +79,11 @@ return (
   className=" zindex carimages"
   small={mountaincabin}
   large={mountaincabin}  
+  hideDownload={true}
 />  </div>
 
     <div className="resptext"> Our cabins are the perfect getaway <br/> 
-        Out of the city, but not out of reach blah <br/>
+        Out of the city, but not out of reach <br/>
          <br/></div>
 
 
@@ -91,7 +92,12 @@ return (
 
 
      <div className="galimg">
-            <div className="zoomabletwo" tabIndex="-1"><SingleSource src={inside} /></div>
+            <div className="zoomabletwo"><ModalImage
+  className=" zindex carimages"
+  small={inside}
+  large={inside}  
+  hideDownload={true}
+/></div>
     <div className="resptexttwo"> We have cabins in every province <br/> 
         Fully heated, fully equipped, fully private <br/>
          <br/></div>
@@ -100,7 +106,12 @@ return (
           </div>  
 
     <div className="galimg">
-          <div className="zoomableone">  <SingleSource src={pjj} /></div>
+          <div className="zoomableone">  <ModalImage
+  className=" zindex carimages"
+  small={pjj}
+  large={pjj}  
+  hideDownload={true}
+/></div>
 
     <div className="resptext"> So whether you're a yogi, writer, philosopher <br/> or just want a change of scenery... 
        
@@ -121,11 +132,6 @@ return (
 
     <br/> <br/> 
 
-    <ModalImage
-  className="small cabinprofilewrapper zindex"
-  small={'https://aautio.github.io/react-modal-image/example_img_small.jpg'}
-  large={'https://aautio.github.io/react-modal-image/example_img_large.jpg'}  
-/>
 
 
     </React.Fragment>
