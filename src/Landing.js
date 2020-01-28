@@ -72,9 +72,9 @@ return (
       
 
 <ModalImage
-  className="carimages"
-  small={mountaincabin}
-  large={mountaincabin}  
+  
+  small={'https://aautio.github.io/react-modal-image/example_img_small.jpg'}
+  large={'https://aautio.github.io/react-modal-image/example_img_large.jpg'}  
 />
 
 
