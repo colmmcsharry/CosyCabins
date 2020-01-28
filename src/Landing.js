@@ -22,6 +22,8 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import YouTube from 'react-youtube-embed'
 import SocialFollow from './SocialFollow.js'
 import Lightbox from './Lightbox.js'
+import ModalImage from "react-modal-image";
+
 import {
   faYoutube,
   faFacebook,
@@ -73,7 +75,11 @@ return (
 
 
      <div className="galimg">
-          <div className="zoomableone">  <SingleSource src={mountaincabin} /></div>
+          <div className="zoomableone">  <ModalImage
+  className="carimages"
+  small={mountaincabin}
+  large={mountaincabin}  
+/>;</div>
 
     <div className="resptext"> Our cabins are the perfect getaway <br/> 
         Out of the city, but not out of reach <br/>

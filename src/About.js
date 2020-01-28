@@ -21,11 +21,7 @@ export default function About () {
 
 	return (
 		<React.Fragment>
-		<div id="mainhighcontainer" >
-		<div id="highcontainer" >
-			<div id="could">This could be you </div>
-		</div>
-	</div>		
+		
 
 <div className="aboutcontainer">
 		<h1> About CubbyCabins</h1> <br/><br/>
@@ -39,37 +35,41 @@ export default function About () {
 		Now you can with Cubby Cabins! </p>
 
 		<br/> <br/>
+<div id="mainhighcontainer" >
+		<div id="highcontainer" >
+			<div id="could">This could be you </div>
+		</div>
+	</div>		
 
-		<p style= {{fontFamily:'Quicksand', fontSize:'1rem'}}>We create cosy little cabins in rustic locations where you can come and have some 'you-time'</p>
+	<br/><br/> <br/><br/>
+		<p style= {{fontFamily:'Oswald', fontSize:'1rem'}}>We create cosy little cabins in rustic locations where you can come and have some 'you-time'
+		<br/> <br/>Our cabins are easily booked, easily accessed and easily affordable! </p>
 
-
-		<figure><img className="ireland" src={ireland} height='400px' width= '400px'/><figcaption style={{position:'relative', bottom: '2rem',fontFamily:'Quicksand', fontSize:'.9rem'}}>No matter where you live in Ireland
-		 you can find a Cubby Cabin within an hour's drive</figcaption></figure>
+		<figure><img className="ireland" src={ireland} height='400px' width= '400px'/><figcaption style={{position:'relative', bottom: '2rem',fontFamily:'Oswald', fontSize:'1rem'}}>Our locations</figcaption></figure>
 			<br/>
 		
-		<p style= {{fontFamily:'Quicksand', fontSize:'1rem'}}> Our cabins are easily booked, easily accessed and easily affordable!</p><br/>	
 	
 
 	
-		<br/> <br/>
+		<br/> <br/> 
 			<h2>Why come to a cabin?</h2>
 		<div className="aboutgrid2">
 
-					<div className="abouttext2"> In the busy world of today<br/>
-					it's never been more important to escape into nature.<br/><br/>	
-					Study after study shows the healing power of time in nature;<br/>  
-					reducing stress and sickness, increasing self-esteem, improved sleep... <br/><br/>
+					<div className="abouttext2"> In the busy, polluted world of today<br/>
+					it's never been more important to escape into nature.<br/>
+					 
+					 <br/> The rejuvenating effects are felt in mind, body and spirit.<br/><br/>	
 
-					<span style={{fontWeight: 'bolder'}}>But one can't just waltz out the door and into the elements... </span><br/><br/>
+					<span style={{fontWeight: 'bold'}}>But one can't just waltz out the door and into the elements... </span><br/><br/>
 
-					To truly enjoy the benefits, you need to be prepared.<br/>
+					To truly enjoy the benefits, preparation is required...<br/>
 					Rain, wind, thunderstorms, snowstorms... can all ruin your lovely day out.<br/><br/>
 					Well with Cubby Cabins you can nip inside, stick the kettle on, put your feet up<br/>
 					and the sounds of the raindrops will be music to your ears.
 
 					
 					 </div>
-					 <div className="quotewrapper2"><div className="namewrapper"> <span>The earth has music for those who listen <br/></span> <br/>- William Shakespeare</div> 
+					 <div className="quotewrapper2"><div className="namewrapper"> The earth has music for those who listen <br/> <br/>- William Shakespeare</div> 
 					 </div>
 
 		</div>
@@ -90,7 +90,7 @@ export default function About () {
 					And you don't have to get wet in the process!
 
 					 </div>
-					 <div className="quotewrapper2"><div className="namewrapper pablo"> <span>Without great solitude, no great work is possible <br/></span> <br/>- Pablo Picasso</div> 
+					 <div className="quotewrapper2"><div className="namewrapper pablo"> Without great solitude, no great work is possible <br/> <br/>- Pablo Picasso</div> 
 					 </div>
 
 		</div>
