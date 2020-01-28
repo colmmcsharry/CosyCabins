@@ -71,15 +71,15 @@ return (
     <img className="swipe" src={swipe}/>
       
 
-
-
-
-     <div className="galimg">
-          <div className="zoomableone"> <ModalImage
+<ModalImage
   className="carimages"
   small={mountaincabin}
   large={mountaincabin}  
-/>  </div>
+/>
+
+
+     <div className="galimg">
+          <div className="zoomableone">   </div>
 
     <div className="resptext"> Our cabins are the perfect getaway <br/> 
         Out of the city, but not out of reach blah <br/>
