@@ -811,7 +811,7 @@ font-family: 'Patrick Hand SC';}
   font-size:18px;
   background: transparent;
    border: solid 3px #41403e;
-    z-index:-1;
+    z-index:1;
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     height: 450px;
     width: 500px;
