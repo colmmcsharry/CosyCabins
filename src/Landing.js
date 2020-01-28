@@ -75,14 +75,14 @@ return (
 
 
      <div className="galimg">
-          <div className="zoomableone" tabindex="-1"> <ModalImage
+          <div className="zoomableone"> <ModalImage
   className="carimages"
   small={mountaincabin}
   large={mountaincabin}  
 />  </div>
 
     <div className="resptext"> Our cabins are the perfect getaway <br/> 
-        Out of the city, but not out of reach <br/>
+        Out of the city, but not out of reach blah <br/>
          <br/></div>
 
 
