@@ -62,7 +62,7 @@ return (
 
         <br/> <br/> <br/> <br/>
 
-    Escape to a Cubby Cabin!    
+    Escape to a Cosy Cabin!    
 
     </div>
 
@@ -116,7 +116,7 @@ return (
     <div className="resptext"> So whether you're a yogi, writer, philosopher <br/> or just want a change of scenery... 
        
          </div>
-         <span className="closing"> We have a cubby cabin for you </span>
+         <span className="closing"> We have a Cosy Cabin for you </span>
 
           </div>   
 

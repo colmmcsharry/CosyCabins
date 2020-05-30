@@ -829,6 +829,11 @@ font-family: 'Patrick Hand SC';}
 }
 
 @media screen and (max-width: 450px) {
+
+#maincontainer {
+  background-image: url('./cabinlakephonemin.jpg');}
+
+
   .carimages {
     height: 250px;
     width: 300px;

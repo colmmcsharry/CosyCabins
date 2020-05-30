@@ -20,7 +20,7 @@ export default function Contact () {
     
 
 		      <FormGroup>
-		        <Label for="exampleEmail"><h1 style={{fontFamily:'Patrick Hand SC', color: '#41403e'}}>Contact Cubby Cabins</h1></Label> <br/> <br/>
+		        <Label for="exampleEmail"><h1 style={{fontFamily:'Patrick Hand SC', color: '#41403e'}}>Contact Cosy Cabins</h1></Label> <br/> <br/>
 		      </FormGroup>
 		      <div className="form-row">
 		          <FormGroup className="col-md-6">
@@ -43,7 +43,7 @@ export default function Contact () {
 		     
 		      <br/>
 		      <FormGroup>
-		        <Label for="exampleSelectMulti">How would you rate your experience with Cubby Cabins?</Label>
+		        <Label for="exampleSelectMulti">How would you rate your experience with Cosy Cabins?</Label>
 		        <Input style={{backgroundColor:'#F7F9FE'}}
 		          type="select"
 		          name="selectMulti"

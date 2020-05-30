@@ -31,7 +31,7 @@ export default function SocialFollow() {
     <Link to ="/contact"><li>Contact</li></Link>
     <Link to ="/blogs"><li>Blog</li></Link>
     </ul>
-      <h3 style={{fontFamily:'Patrick Hand SC', color:'#41403'}}>@CubbyCabins</h3>
+      <h3 style={{fontFamily:'Patrick Hand SC', color:'#41403'}}>@CosyCabins</h3>
       <a
         href="https://www.youtube.com"
         className="youtube social"
