@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import Cabin from './Cabin.js'
 import { dublinphotos } from './photos.js'
-
+import relaxing from './relaxing.jpg'
 
 
 
@@ -28,7 +28,7 @@ class Blog extends Component {
           {visibility ? "Hide blog" : "Show blog"}
         </button>
         {visibility && <div className="blogtext">
-          <img src="https://mensvariety.com/wp-content/uploads/2017/09/arrested-woods-678x381.jpg" />
+          <img src={relaxing} />
 
           Spending at least two hours in nature per week can promote health and well-being.
           

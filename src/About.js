@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import ReactDOM from 'react-dom';
 import stress from './stress.jpg'
+import stressmob from './stressmob.jpg'
 import ireland from './Irelandsharp.png'
-import CouldbeYou from './CouldbeYou.png'
 import einstein from './einstein.jpg'
+import einsteinlrg from './einsteinlrg.jpg'
 import einsteinmob from './einsteinmob.jpg'
 
 import ResponsiveGallery from './ResponsiveGallery.js'
@@ -29,6 +30,7 @@ export default function About () {
 
 		<br/>
 		<img src={stress} height='300px' />
+		
 		<br/>  <br/>
 		<p>Ever felt trapped in work, and wish you could just escape?
 <br/> <br/>

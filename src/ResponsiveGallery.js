@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 import phonebrain from './phonebrain.jpg'
-import freelanceworkers from './freelanceworkers.png'
-import couples from './couples.png'
+import freelanceworkers from './freelanceworkers.jpg'
+import couples from './couples.jpg'
 import marshmallow from './marshmallow.jpg'
 
 

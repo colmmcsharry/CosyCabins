@@ -3,15 +3,13 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Link } from 'react-router-dom';
 import SingleSource from './SingleSource.js'
-import cabinnight from './pics/cabinnight.jpg'
-import wildcabin from './pics/screenshot2.png'
+import wildcabin from './pics/screenshot2.jpg'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
 import yellowcabin from './pics/yellowcabin.jpg'
 import mountaincabin from './pics/mountaincabin.jpg'
-import screenshot1 from './pics/screenshot1.png'
-import outside from './pics/outside.png'
-import boat from './pics/boat.png'
+import outside from './pics/outside.jpg'
+import boat from './pics/boat.jpg'
 import snowycabin from './pics/snowycabin.jpg'
 
 /*remember there is an AliceCarousel.CSS file that can be edited too, like in my group proj version, can remove buttons, etc.*/

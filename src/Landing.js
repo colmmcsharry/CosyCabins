@@ -4,14 +4,13 @@ import ReactDOM from 'react-dom';
 import { photos } from "./photos";
 import SingleSource from './SingleSource.js'
 import cabinnight from './pics/cabinnight.jpg'
-import wildcabin from './pics/screenshot2.png'
+import wildcabin from './pics/screenshot2.jpg'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
 import yellowcabin from './pics/yellowcabin.jpg'
-import outside from './pics/outside.png'
+import outside from './pics/outside.jpg'
 import mountaincabin from './pics/mountaincabin.jpg'
-import inside from './pics/inside.png'
-import yogi from './pics/yogi.png'
+import inside from './pics/inside.jpg'
 import pjj from './pics/pjimage.jpg'
 import swipe from './pics/swipe.png'
 import MyCarousel from './Carousel.js'
@@ -127,7 +126,7 @@ return (
 
           
     <br/> <br/> <br/> <br/> 
-    <div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
+     <div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
 
 
     <br/> <br/> 

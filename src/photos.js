@@ -1,32 +1,39 @@
+import Dubcabin from './Dubcabin.jpg'
+import Dubcabin2 from './Dubcabin2.jpg'
+import Dubcabin3 from './Dubcabin3.jpg'
+import Dubcabin4 from './Dubcabin4.jpeg'
+import Dubcabin5 from './Dubcabin5.jpg'
+import Dubcabin6 from './Dubcabin6.jpg'
+
 export const dublinphotos = [
   {
-    src: "https://uncrate.com/p/2017/10/unyoked-cabins-1.jpg",
+    src: Dubcabin,
     width: 1,
     height: 1
   },
   {
-    src: "https://i.pinimg.com/originals/ca/8f/f6/ca8ff66cc15ccf5111b23236706e5d86.jpg",
+    src: Dubcabin2,
     width: 1,
     height: 1
   },
   {
-    src: "https://www.esquireme.com/sites/default/files/images/2019/11/27/Matthew-McConaughey-eco-cabin-australia-%283%29.jpg",
+    src: Dubcabin3,
     width: 1,
     height: 1
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+    src: Dubcabin4,
     width: 1,
     height: 1
   },
   {
-    src: "https://uncrate.com/assets_c/2017/10/unyoked-cabins-2-thumb-960xauto-76606.jpg",
+    src: Dubcabin5,
     width: 1,
     height: 1
   },
 
   {
-    src: "https://i.pinimg.com/originals/2f/26/d5/2f26d516c1c77cab492450cbc81a8e16.jpg",
+    src: Dubcabin6,
     width: 1,
     height: 1
   }

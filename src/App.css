@@ -833,6 +833,10 @@ font-family: 'Patrick Hand SC';}
 #maincontainer {
   background-image: url('./cabinlakephonemin.jpg');}
 
+#highcontainer
+  { 
+    background-image: url("./pics/cabinhighmob.jpg");
+}
 
   .carimages {
     height: 250px;

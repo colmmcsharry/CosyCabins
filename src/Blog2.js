@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import Cabin from './Cabin.js'
 import { dublinphotos } from './photos.js'
-
+import nophone from './nophone.jpg'
 
 
 
@@ -26,7 +26,7 @@ class Blog2 extends Component {
           {visibility ? "Hide blog" : "Show blog"}
         </button>
         {visibility && <div className="blogtext"> Here be the blog with pics and stuff <br/>
-          <img src="https://www.blueosa.com/wp-content/uploads/2016/05/DIGITAL-DETOX1-865x433-731x366.jpg" /> <br/>
+          <img src={nophone} /> <br/>
 
 
           Here be the blog with pics and stuff <br/>
