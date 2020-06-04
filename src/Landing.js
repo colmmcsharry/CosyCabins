@@ -63,7 +63,7 @@ return (
 
 
     <div className="GalleryWrapper"><MyCarousel/></div>
-    <img className="swipe" src={swipe}/>
+    
       
 
 

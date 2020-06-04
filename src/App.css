@@ -314,11 +314,6 @@ font-size:22px;}
 
 
 
-.swipe {
- 
-  display: none;}
-
-
 
 
 
@@ -776,16 +771,6 @@ font-size:1.2rem;}
 .Youtubee {
   padding: 0px 15px 150px 15px;
 }
-
-.swipe {
-  display:block;
-  position:relative;
-  height:30px;
-  width:30px;
-  left:47%;
-  top:19px;
-  visibility: show;}
-
 
 
 .galimg {display: block;}
