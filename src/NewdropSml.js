@@ -32,7 +32,7 @@ export default class NewdropSml extends React.Component {
            <FontAwesomeIcon icon={faSearch} size="lg" />
         </DropdownToggle>
         <DropdownMenu right className = "mydrop">
-        <DropdownItem style={{fontFamily:'quicksand', color: '#2e4c63'}}>Book a Cabin near...</DropdownItem>
+        <DropdownItem header style={{fontFamily:'quicksand', color: '#2e4c63'}}>Book a Cabin near...</DropdownItem>
           <DropdownItem tag={Link} to="/dublin" className="dropitems">Dublin</DropdownItem>
           <DropdownItem tag={Link} to="/dublin" className="dropitems">Galway</DropdownItem>
           <DropdownItem tag={Link} to="/dublin" className="dropitems">Cork</DropdownItem>

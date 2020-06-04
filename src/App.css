@@ -299,7 +299,7 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 
 
 /*can edit this later to make it move slightly off the house on phones*/
-.escape { position: absolute;
+.escape { position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -377,7 +377,7 @@ border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
 
 
 .moving-clouds {
-  position: absolute;
+  position: relative;
   z-index: 1;
   bottom: 0;
   left: 0;
