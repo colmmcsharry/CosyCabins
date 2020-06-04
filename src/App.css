@@ -377,6 +377,7 @@ border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
 
 
 .moving-clouds {
+  background-image: url('./pics/clouds.png');
   position: relative;
   z-index: 1;
   bottom: 0;
@@ -853,9 +854,9 @@ font-size: '19px';
 z-index: 3;}
 
 .moving-clouds {
- 
-  -webkit-animation: cloudLoop 20s linear infinite;
-  animation: cloudLoop 20s linear infinite; }
+  background-image: url('./pics/clouds-small.png');
+  -webkit-animation: cloudLoop 35s linear infinite;
+  animation: cloudLoop 35s linear infinite; }
 
 
 .mainimg {width: 90%;

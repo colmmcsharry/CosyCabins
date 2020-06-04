@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom';
 /*import Gallery from 'react-grid-gallery';*/
 import { photos } from "./photos";
 import SingleSource from './SingleSource.js'
-import cabinnight from './pics/cabinnight.jpg'
 import wildcabin from './pics/screenshot2.jpg'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
-import yellowcabin from './pics/yellowcabin.jpg'
-import outside from './pics/outside.jpg'
 import mountaincabin from './pics/mountaincabin.jpg'
 import inside from './pics/inside.jpg'
+import insidetiny from './pics/insidetiny.jpg'
 import pjj from './pics/pjimage.jpg'
 import swipe from './pics/swipe.png'
 import MyCarousel from './Carousel.js'
@@ -45,9 +43,7 @@ return (
                   <p className="escape" >Escape</p>
               
 
-                        <div className="moving-clouds"
-                                  style={{
-                                    backgroundImage: "url(" + require("./pics/clouds.png") + ")" }}>
+                        <div className="moving-clouds">
                                     </div>
        </div>
       </div>  
@@ -93,7 +89,7 @@ return (
      <div className="galimg">
             <div className="zoomabletwo"><ModalImage
   className=" zindex carimages"
-  small={inside}
+  small={insidetiny}
   large={inside}  
   hideDownload={true}
 /></div>
