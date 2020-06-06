@@ -33,22 +33,22 @@ export default function SocialFollow() {
     </ul>
       <h3 style={{fontFamily:'Patrick Hand SC', color:'#41403'}}>@CosyCabins</h3>
       <a
-        href="https://www.youtube.com"
+        href="javascript:void(0)"
         className="youtube social"
       >
         <FontAwesomeIcon icon={faYoutube} size="2x"/>
       </a>
       <a
-        href="https://www.facebook.com/"
+        href="javascript:void(0)"
         className="facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a href="https://www.twitter.com" className="twitter social">
+      <a href="javascript:void(0)" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
       <a
-        href="https://www.instagram.com"
+        href="javascript:void(0)"
         className="instagram social"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x" />
