@@ -335,6 +335,7 @@ font-size:22px;}
 }
 
 .carimages.one {
+
 border-radius: 255px 55px 855px 15px/50px 255px 25px 255px;}
 
 .carimages.two {
@@ -486,7 +487,12 @@ button.lined.thin:hover {
 /*ALL CABINS PROFILE CSS */
 
 .zindex {z-index:6;
-position:relative;}
+position:relative;
+cursor:zoom-in;}
+
+.zindex:hover {
+  cursor: zoom-in !important;
+}
 
 .cabinprofilewrapper
 

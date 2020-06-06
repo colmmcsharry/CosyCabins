@@ -6,10 +6,12 @@ import SingleSource from './SingleSource.js'
 import wildcabin from './pics/screenshot2.jpg'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
-import mountaincabin from './pics/mountaincabin.jpg'
+import mountaincabin from './pics/woods.jpg'
+import mountaincabinsml from './pics/woodssml.jpg'
 import inside from './pics/inside.jpg'
 import insidetiny from './pics/insidetiny.jpg'
-import pjj from './pics/pjimage.jpg'
+import pjjsml from './pics/pjimagesml.jpg'
+import pjjbig from './pics/pjimagelrg.jpg'
 import swipe from './pics/swipe.png'
 import MyCarousel from './Carousel.js'
 import Gallery from "react-photo-gallery";
@@ -72,7 +74,7 @@ return (
      <div className="galimg">
           <div className="zoomableone"> <ModalImage
   className=" zindex carimages"
-  small={mountaincabin}
+  small={mountaincabinsml}
   large={mountaincabin}  
   hideDownload={true}
 />  </div>
@@ -103,8 +105,8 @@ return (
     <div className="galimg">
           <div className="zoomableone">  <ModalImage
   className=" zindex carimages"
-  small={pjj}
-  large={pjj}  
+  small={pjjsml}
+  large={pjjbig}  
   hideDownload={true}
 /></div>
 

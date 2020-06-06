@@ -7,7 +7,8 @@ import wildcabin from './pics/screenshot2.jpg'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
 import yellowcabin from './pics/yellowcabin.jpg'
-import mountaincabin from './pics/mountaincabin.jpg'
+import mountaincabin from './pics/woods.jpg'
+import mountaincabinsml from './pics/woodssml.jpg'
 import outside from './pics/outside.jpg'
 import boat from './pics/boat.jpg'
 import snowycabin from './pics/snowycabin.jpg'
@@ -46,7 +47,7 @@ class MyCarousel extends React.Component {
     return (
       <div className="mainCarouselWrapper">
       <AliceCarousel
-        duration={2500}
+        duration={5000}
         autoPlay={true}
         startIndex={2}
         infinite={true}
@@ -64,7 +65,7 @@ class MyCarousel extends React.Component {
         onSlideChanged={this.onSlideChanged}
       >
         <div className="Mypicsclass">
-        <Link to="/dublin">
+        
          
             <img
               className="carimages"
@@ -73,10 +74,10 @@ class MyCarousel extends React.Component {
             
 
           
-          </Link>
+          
         </div>
         <div className="Mypicsclass">
-        <Link to="/dublin">
+        
          
             <img
               className="carimages"
@@ -87,10 +88,10 @@ class MyCarousel extends React.Component {
              
   
           
-          </Link>
+          
         </div>
         <div className="Mypicsclass">
-        <Link to="/dublin">
+        
          
             <img
               className="carimages one"
@@ -99,10 +100,10 @@ class MyCarousel extends React.Component {
             
  
           
-          </Link>
+          
         </div>
         <div className="Mypicsclass">
-        <Link to="/dublin">
+        
          
             <img
               className="carimages two"
@@ -111,10 +112,10 @@ class MyCarousel extends React.Component {
             
  
           
-          </Link>
+         
         </div>
         <div className="Mypicsclass">
-        <Link to="/dublin">
+        
          
             <img
               className="carimages three"
@@ -123,7 +124,7 @@ class MyCarousel extends React.Component {
             
  
           
-          </Link>
+          
         </div>
       </AliceCarousel>
       </div>
