@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
 @import url('https://fonts.googleapis.com/css?family=Itim|Open+Sans|Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600,700&display=swap');
+
 
 html {overflow-x: hidden !important;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 #maincontainer {
-  background-image: url('./cabinlakeshopped.jpg');
+  background-image: url('./pics/cabinlakeshopped.jpg');
 height:120vh;
 width:100vw;
 overflow-x: hidden !important;
@@ -81,6 +81,21 @@ animation: cssAnimation 0s 3s forwards;
 }
 
 
+.forecastcontainer {
+  position:relative;
+  display: block;
+  width:70vw;
+  margin:0 auto;
+  padding:0% 10%;
+}
+/*.weather {
+  display:none;
+}
+
+.displayblock {
+  display:block;
+}*/
+
 
 /*the container div for the actual logo symbol*/
 .logocontainer {
@@ -134,12 +149,11 @@ font-size:16px;}
 /*BLOG*/
 
 .blogscontainer {
-padding:20px;
-padding-top:150px;}
+padding:10vw;
+padding-top:10vh;}
 
-.blogclass {padding-top:100px;
-
-padding-bottom: 100px;
+.blogclass {padding-top:10vh;
+padding-bottom: 10vh;
 font-family: 'Patrick Hand SC';
    border-bottom: dashed 1px #41403e;
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;}
@@ -150,19 +164,21 @@ font-family: 'Patrick Hand SC';
 .blogclass p {font-family: Quicksand;}
 
 .blogtext {font-family: Quicksand;
-  margin-top:20px;
-padding-left:200px;
-padding-right: 200px;
-line-height:1.8;}
+padding-left:15vw;
+padding-right:15vw;
+line-height:1.8;
+text-align:left;}
 
 .blogtext img {
 display: block;
 position: relative;
-margin:40px;
-left:15%;
-padding: 60px 0px;
-  width:60%;
-height:auto;}
+margin:10vh auto;
+width:40vw;
+height:auto;
+border: solid 1px #41403e;
+border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+}
 
 /*BLOG ENDS*/
 
@@ -494,21 +510,17 @@ cursor:zoom-in;}
   cursor: zoom-in !important;
 }
 
-.cabinprofilewrapper
-
-{
-padding: 50px;
-padding-top:200px;
+.cabinprofilewrapper {padding: 50px; padding-top:200px;
 }
 
 .cabinprofilewrapper h1 {font-family: Patrick Hand SC;
 }
 
-.cabinprofilewrapper p {font-family: Oswald;
+.cabinprofilewrapper p {font-family: Tahoma;
   padding:50px 0px;
 }
 
-.cabinprofilewrapper li {font-family: Quicksand;}
+.cabinprofilewrapper li {font-family: Tahoma;}
 
 /*
 .cabinprofilewrapper img {
@@ -532,7 +544,7 @@ font-family: 'Patrick Hand SC';
 
 .Lwrapperdiv {
   padding:5px;
-  margin: 250px 30px;}
+  margin: 10vh 5vw;}
 
 
 
@@ -582,8 +594,9 @@ font-size:1.4rem;}
   font-size:1rem;
   flex-grow: 6;
   color: #41403e;;
-  font-family: Oswald;
+  font-family: Tahoma;
   flex-basis:400px;
+  text-align:left;
 }
 
 .quotewrapper2 {
@@ -763,8 +776,15 @@ font-size:1.2rem;}
 
 .namewrapper {padding:5%;
  width:30vw;
-
              }
+
+.blogtext img {width:50vw;
+margin:5vh auto;}
+
+.forecastcontainer {
+  width:90vw;
+}
+
 
 }
 
@@ -823,7 +843,7 @@ font-family: 'Patrick Hand SC';}
 @media screen and (max-width: 450px) {
 
 #maincontainer {
-  background-image: url('./cabinlakephonemin.jpg');}
+  background-image: url('./pics/cabinlakephonemin.jpg');}
 
 #highcontainer
   { 
@@ -864,17 +884,18 @@ padding-top:200px;
 
 .blogtext {font-family: Quicksand;
   margin-top:20px;
-padding-left:20px;
-padding-right: 20px;
+padding-left:5vw;
+padding-right:5vw;
 line-height:1.7;
-font-size:15px;
+font-size:.8rem;
   }
 
 .blogtext img {
 display: block;
-margin:40px;
-left:-30px;
-padding: 40px 0px;
+/*margin:40px;
+
+padding: 40px 0px;*/
+margin:6vh 0;
 position: relative;
   width: 90%;
 height:auto;}
@@ -922,7 +943,7 @@ width:70%;}
 
 figcaption {bottom:10rem;}
 
-.Lwrapperdiv {margin-top:10rem;}
+
 
 #could {
   font-family:quicksand;

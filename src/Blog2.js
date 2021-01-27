@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import Cabin from './Cabin.js'
 import { dublinphotos } from './photos.js'
-import nophone from './nophone.jpg'
+import nophone from './pics/nophone.jpg'
 
 
 

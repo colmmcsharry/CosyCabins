@@ -34,10 +34,10 @@ export default class NewdropSml extends React.Component {
         <DropdownMenu right className = "mydrop">
         <DropdownItem header style={{fontFamily:'quicksand', color: '#2e4c63'}}>Book a Cabin near...</DropdownItem>
           <DropdownItem tag={Link} to="/dublin" className="dropitems">Dublin</DropdownItem>
-          <DropdownItem tag={Link} to="/dublin" className="dropitems">Galway</DropdownItem>
-          <DropdownItem tag={Link} to="/dublin" className="dropitems">Cork</DropdownItem>
-          <DropdownItem tag={Link} to="/dublin" className="dropitems">Belfast</DropdownItem>
-          <DropdownItem tag={Link} to="/dublin" className="dropitems">Kerry</DropdownItem>
+          <DropdownItem tag={Link} to="/galway" className="dropitems">Galway</DropdownItem>
+          <DropdownItem tag={Link} to="/cork" className="dropitems">Cork</DropdownItem>
+          <DropdownItem tag={Link} to="/belfast" className="dropitems">Belfast</DropdownItem>
+          <DropdownItem tag={Link} to="/kerry" className="dropitems">Kerry</DropdownItem>
           
           </DropdownMenu>
       </Dropdown>
