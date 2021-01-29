@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CosyCabins/static/css/main.3ede1319.chunk.css",
-    "main.js": "/CosyCabins/static/js/main.69091cad.chunk.js",
-    "main.js.map": "/CosyCabins/static/js/main.69091cad.chunk.js.map",
+    "main.js": "/CosyCabins/static/js/main.fc1393e7.chunk.js",
+    "main.js.map": "/CosyCabins/static/js/main.fc1393e7.chunk.js.map",
     "runtime-main.js": "/CosyCabins/static/js/runtime-main.878d60e5.js",
     "runtime-main.js.map": "/CosyCabins/static/js/runtime-main.878d60e5.js.map",
     "static/css/2.b1af4d5b.chunk.css": "/CosyCabins/static/css/2.b1af4d5b.chunk.css",
     "static/js/2.c545b959.chunk.js": "/CosyCabins/static/js/2.c545b959.chunk.js",
     "static/js/2.c545b959.chunk.js.map": "/CosyCabins/static/js/2.c545b959.chunk.js.map",
     "index.html": "/CosyCabins/index.html",
-    "precache-manifest.0388282fe65ef5ce028ae8518b4969b8.js": "/CosyCabins/precache-manifest.0388282fe65ef5ce028ae8518b4969b8.js",
+    "precache-manifest.0342c257c35b17bdb7f988fe9673b976.js": "/CosyCabins/precache-manifest.0342c257c35b17bdb7f988fe9673b976.js",
     "service-worker.js": "/CosyCabins/service-worker.js",
     "static/css/2.b1af4d5b.chunk.css.map": "/CosyCabins/static/css/2.b1af4d5b.chunk.css.map",
     "static/css/main.3ede1319.chunk.css.map": "/CosyCabins/static/css/main.3ede1319.chunk.css.map",
@@ -60,6 +60,6 @@
     "static/css/2.b1af4d5b.chunk.css",
     "static/js/2.c545b959.chunk.js",
     "static/css/main.3ede1319.chunk.css",
-    "static/js/main.69091cad.chunk.js"
+    "static/js/main.fc1393e7.chunk.js"
   ]
 }
