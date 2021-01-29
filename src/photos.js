@@ -8,7 +8,7 @@ import Bcabin1 from './pics/cabinhighmob.jpg'
 import Bcabin2 from './pics/cabinwindow.jpg'
 import Bcabin3 from './pics/couples.jpg'
 import Bcabin4 from './pics/isolatedsml.jpg'
-import Bcabin5 from './unusedPics/inside-small.jpg'
+import Bcabin5 from './pics/inside-small.jpg'
 
 
 
