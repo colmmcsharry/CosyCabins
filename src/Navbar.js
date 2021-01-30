@@ -48,7 +48,7 @@ window.onscroll = function() {
     return (
       <div id="Mynavbar">
         <div className="logocontainer">
-          <Link to="/landing">
+          <Link to="/CosyCabins">
             <img src={logo} className="logo" alt="our logo"
             /> 
           </Link>
