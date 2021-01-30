@@ -11,7 +11,7 @@ import Contact from './Contact.js'
 export default [
 
 
-			<Route key="home" exact path="/Testproj" component={Landing} />,         
+			<Route key="home" exact path="/cosycabins" component={Landing} />,         
             <Route key="carousel" path="/carousel" component={Carousel} />,       
 			<Route key="landing" path="/landing" component={Landing} />,      
 			<Route key="dublin" path="/dublin" render={(props) => <Lightbox {...props} place="Dublin" />}    />,
