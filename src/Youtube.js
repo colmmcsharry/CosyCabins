@@ -13,7 +13,7 @@ export default ({ youtubeId }) => {
         height: 0
       }}
     >
-      <iframe
+      <iframe loading="lazy"
         style={{
           position: "absolute",
           top: 0,

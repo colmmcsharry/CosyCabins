@@ -2,9 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Itim|Open+Sans|Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
 
+:root{
+--mybeige: #FFFFF0;
+--mycharcoal: #41403e;
+  }
 
 html {overflow-x: hidden !important;
+  font-family:Patrick Hand SC;
+  font-size:16px;
+  color:var(--mycharcoal);
 }
+
 
 body {
     position:relative;
@@ -14,7 +22,7 @@ body {
 }
 /*this keeps the fog from causing a horizontal scrollbar*/
 
-.App {background-color: #FFFFF0;
+.App {background-color: var(--mybeige);
   text-align:center;
  padding-bottom:150px;
 }
@@ -32,6 +40,7 @@ background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   overflow-y: hidden !important;
+  margin-bottom:200px;
 }
 
 /*use tutorial i favorited to see how tio use media query to load smaller image on phones
@@ -45,7 +54,9 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 
 /*make this the same size as the container it covers*/
 
-.Youtubee {padding:150px;}
+
+img:hover{ cursor: url("https://winway.se/wp-content/uploads/2020/09/sound_test-1-e1599744120404.png"), auto;}
+
 
 
  iframe { font-family: 'Patrick Hand SC';
@@ -54,7 +65,6 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
     
 }
 
-.carimages .sec {border: 20px solid red;}
 
 .cabingallery {z-index:4;}
 
@@ -127,7 +137,6 @@ grid-template-columns: 1fr 1fr;
   
 }
 
-/* color: #1B6EB0; this is tyhe navy blue color*/
 
 .dropitems {color: #1B6EB0;
 font-family: quicksand;
@@ -181,16 +190,6 @@ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 /*BLOG ENDS*/
-
-
-
-
-
-
-.test {color: green;
-}
-
-.test2 {background-color: white;}
 
 
 
@@ -320,13 +319,7 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   left: 50%;
   transform: translate(-50%, -50%);
 font-family: Patrick Hand SC;
-font-size: 20px}
-
-.intro {
-margin-top:400px;
-margin-bottom:400px;
-font-family: 'Patrick Hand SC';
-font-size:22px;}
+font-size: 1.4rem}
 
 
 
@@ -334,10 +327,8 @@ font-size:22px;}
 
 
 .GalleryWrapper {
-  padding-top: 0px;
-  background-color: transparent;
-  padding-left: 20px; 
-  padding-right: 20px;  
+  padding:120px 0px;
+  background-color: transparent; 
 }
 
 .carimages {
@@ -446,12 +437,6 @@ line-height:50px;
 margin-top:100px;
 font-size:22px;}
 
-   .closing {position:relative;
-top:300px;
-left:50%;
-margin:150px 0px;
-font-family: 'Patrick Hand SC';
-font-size: 22px;}
 
 
 
@@ -576,7 +561,7 @@ font-family: 'Patrick Hand SC';
 .aboutcontainer {padding: 15% 5%;
 
 font-family: Patrick Hand SC;
-font-color:#212529;
+font-color:var(--mycharcoal);
 font-size:1.4rem;}
 
 
@@ -794,9 +779,6 @@ margin:5vh auto;}
 
 @media screen and (max-width: 600px) {
 
-.Youtubee {
-  padding: 0px 15px 150px 15px;
-}
 
 
 .galimg {display: block;}
@@ -819,11 +801,6 @@ position:relative;
     bottom: 300px;}
 
 
-.closing {position:relative;
-  margin:0px;
-top:200px;
-left:0px;
-font-family: 'Patrick Hand SC';}
 
 .carimages {
   font-family: 'Patrick Hand SC';

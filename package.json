@@ -28,7 +28,7 @@
     "react-socks": "^2.1.0",
     "react-youtube-embed": "^1.0.3",
     "reactstrap": "^8.4.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -54,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "babel-plugin-macros": "^2.8.0",
     "fslightbox-react": "^1.4.9"
   }
 }

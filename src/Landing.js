@@ -22,7 +22,8 @@ import YouTube from 'react-youtube-embed'
 import SocialFollow from './SocialFollow.js'
 import Lightbox from './Lightbox.js'
 import ModalImage from "react-modal-image";
-
+import styled, { createGlobalStyle } from 'styled-components/macro'
+import { keyframes } from 'styled-components'
 import {
   faYoutube,
   faFacebook,
@@ -33,10 +34,84 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) scale(2);
+
+  }
+`
+
+const Section = styled.section`
+padding: 5%;
+font-size:1.4rem;
+font-family:Patrick Hand SC;
+color:var(--mycharcoal);
+
+p.closing {margin-bottom:100px;
+color:blue;}
+
+&.intro {
+  padding:0;
+  margin-bottom:100px;
+
+  p {margin-bottom:100px}
+}
+
+ @media (min-width: 2000px){
+ font-size:1.9rem}
+
+`
+
+
+
+const Gridwrap = styled.div`
+display:grid;
+place-items:center;
+grid-auto-rows:1fr;
+padding:5%;
+border-color:red;
+  grid-row-gap:100px;
+  margin-bottom:100px;
+  /*this is the equivalent of margin-bottom for each row */
+
+ /*from tablets up, two columns, images at 80% */ 
+  @media (min-width: 650px) {
+    grid-template-columns:1fr 1fr;
+   & img {width:80%}
+  }
+`
+const StyledModal = styled(ModalImage)`
+border: solid 2px black;
+border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+width:100%;
+
+&:hover {
+
+  }
+
+`
+
+
+const Textdiv = styled.div`
+padding:10%;
+ @media (min-width: 650px){
+  &.rev {
+     grid-column:2;
+     grid-row:2;}
+
+ }
+`
+
+
 export default function Landing  () {
 
 return (
   <React.Fragment>
+{/*maincontainer is just for the landing image*/}
     <div id ="maincontainer">  
             
             <div className="maincontainerfilter">
@@ -49,87 +124,80 @@ return (
                                     </div>
        </div>
       </div>  
+{/*landing image ends*/}
 
-    <div className="intro"> 
+
+
+
+<Section className="intro">
+    <p>
       Life stressing you out?
-
-      <br/> <br/> <br/> <br/>
-
+      <br/> <br/> 
     Feeling trapped?  
-
-        <br/> <br/> <br/> <br/>
-
+        <br/> <br/> 
     Escape to a Cosy Cabin!    
-
-    </div>
-
-
+    </p>
     <div className="GalleryWrapper"><MyCarousel/></div>
-    
-      
+</Section>
 
 
 
-
-     <div className="galimg">
-          <div className="zoomableone"> <ModalImage
-  className=" zindex carimages"
-  small={mountaincabinsml}
-  large={mountaincabin}  
-  hideDownload={true}
-/>  </div>
-
-    <div className="resptext"> Our cabins are the perfect getaway <br/> 
-        Out of the city, but not out of reach <br/>
-         <br/></div>
+{/*3 pics and texts begin*/}
+<Section>
 
 
-          </div>   
+<Gridwrap>
 
-
-
-     <div className="galimg">
-            <div className="zoomabletwo"><ModalImage
-  className=" zindex carimages"
-  small={insidetiny}
-  large={inside}  
-  hideDownload={true}
-/></div>
-    <div className="resptexttwo"> We have cabins in every province <br/> 
-        Fully heated, fully equipped, fully private <br/>
-         <br/></div>
-
-
-          </div>  
-
-    <div className="galimg">
-          <div className="zoomableone">  <ModalImage
-  className=" zindex carimages"
+       <Textdiv>Hi i'm some text, I want to be in the middle
+       Hi i'm some text, I want to be in the middle
+       Hi i'm some text, I want to be in the middle
+       </Textdiv>
+ <StyledModal
   small={pjjsml}
   large={pjjbig}  
   hideDownload={true}
-/></div>
+/>
+  
+ <Textdiv className="rev">Hidifferent textst, I want to be in the middle
+       Hi i'm some text, I want to be in the middle
+       </Textdiv>
+ <StyledModal
+  small={pjjsml}
+  large={pjjbig}  
+  hideDownload={true}
+/>
 
-    <div className="resptext"> So whether you're a yogi, writer, philosopher <br/> or just want a change of scenery... 
-       
-         </div>
-         <span className="closing"> We have a Cosy Cabin for you </span>
+<Textdiv>Hi i'm some text, I want to be in the middle
+       Hi i'm some text, I want to be in the middle
+       Hi i'm some text, I want to be in the middle
+       </Textdiv>
+ <StyledModal
+  small={pjjsml}
+  large={pjjbig}  
+  hideDownload={true}
+/>
+     </Gridwrap>
 
-          </div>   
+ 
 
 
+
+
+
+ <p className="closing"> We have a Cosy Cabin for you </p>
+
+   
+
+{/*3 pics and texts end*/}
 
 
 
 
           
-    <br/> <br/> <br/> <br/> 
+  
      <div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
 
-
-    <br/> <br/> 
-
-
+</Section>
 
     </React.Fragment>
 )
