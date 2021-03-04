@@ -20,31 +20,7 @@ import NewdropSml from "./NewdropSml.js";
 export default class Navbar extends React.Component {
 
   render() {
-    /*this is the new function*/
-// window.onscroll = function() {myFunction()};
 
-// function myFunction() {
-//   if (document.body.scrollTop < 150 || document.documentElement.scrollTop < 150) {
-//     document.getElementById("Mynavbar").className = "test";
-//   } else {
-//     document.getElementById("Mynavbar").className = "test2";
-//   }
-// }
- /*new function ends*/
-
-/*so I simply put in the && condition, so now even if im scrolling down, you also need to be over 150 pixels down from the top,
-before the navbar slides up out of view*/
-
-    var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos && document.body.scrollTop < 50 || document.documentElement.scrollTop < 50 ) {
-    document.getElementById("Mynavbar").style.top = "0";
-  } else {
-    document.getElementById("Mynavbar").style.top = "-180px";
-  }
-  prevScrollpos = currentScrollPos;
-}
     return (
       <div id="Mynavbar">
         <div className="logocontainer">

@@ -7,6 +7,7 @@
 --mycharcoal: #41403e;
   }
 
+
 html {overflow-x: hidden !important;
   font-family:Patrick Hand SC;
   font-size:16px;
@@ -18,7 +19,6 @@ body {
     position:relative;
     width:100vw;
     overflow-x: hidden !important;
-    
 }
 /*this keeps the fog from causing a horizontal scrollbar*/
 
@@ -26,6 +26,17 @@ body {
   text-align:center;
  padding-bottom:150px;
 }
+
+/*the big image that comes when you click on the mag glass*/
+.__react_modal_image__medium_img {
+    max-width: 85% !important;
+    max-height: 85% !important;
+    background-color: black;
+    animation: fadein 1s ease-out forwards;
+    opacity:0;
+} 
+
+
 
 #einsteinmob {display:none;
 }
@@ -40,11 +51,10 @@ background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   overflow-y: hidden !important;
-  margin-bottom:200px;
+  margin-bottom:240px;
 }
 
-/*use tutorial i favorited to see how tio use media query to load smaller image on phones
-https://www.webfx.com/blog/web-design/responsive-background-image/ */
+
 
 .maincontainerfilter {
    backdrop-filter: brightness(0.8);
@@ -55,7 +65,9 @@ https://www.webfx.com/blog/web-design/responsive-background-image/ */
 /*make this the same size as the container it covers*/
 
 
-img:hover{ cursor: url("https://winway.se/wp-content/uploads/2020/09/sound_test-1-e1599744120404.png"), auto;}
+
+
+.zoompic:hover{ cursor: url("./pics/magglass.png"), auto !important}
 
 
 
@@ -77,17 +89,15 @@ img:hover{ cursor: url("https://winway.se/wp-content/uploads/2020/09/sound_test-
   top:0;
   transition: top 0.5s;
   display: grid;
-  background-color:transparent;
+  background-color: transparent;
   grid-template-columns: 1fr 8fr 1fr;
   justify-content: center;
   padding: 30px 0px;
   grid-column-gap: 0px;
-animation: cssAnimation 0s 3s forwards;
-  visibility: hidden;
 }
 
-@keyframes cssAnimation {
-  to   { visibility: visible; }
+@keyframes fadein {
+  to   { opacity: 1; }
 }
 
 
@@ -122,6 +132,9 @@ animation: cssAnimation 0s 3s forwards;
 
 .logo:hover {
   cursor: pointer;
+  filter:brightness(150%);
+  transform:translateY(-2px);
+
 }
 
 .dropcontainer {display: grid;
@@ -193,14 +206,22 @@ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
 
 
+.btn-secondary:hover {
+  transform:translateY(-2px);
+filter: brightness(160%);
+  /*the properties beflow and the animation make the colors change on hover, its cool!*/
+/*   border-color: hsl(0,100%,50%);*/
+/*animation: redred 10000ms 0ms infinite linear;*/
+}
 
-
-
-
-
-
-
-
+/*@keyframes redred {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}*/
 
 
 
@@ -235,7 +256,8 @@ color:black;}
 .footersearch {position:absolute;
 font-size:30px;
 right:4%;
-bottom:22%;}
+bottom:22%;
+transition:all .2s ease;}
 
 /* SOCIAL STUFF */
 .social-container {
@@ -319,7 +341,10 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   left: 50%;
   transform: translate(-50%, -50%);
 font-family: Patrick Hand SC;
-font-size: 1.4rem}
+font-size: 1.6rem;
+animation:fadein 3s ease-in forwards;
+opacity:0;
+}
 
 
 
@@ -449,7 +474,6 @@ button.lined.thin {
 align-self: center;
    background: transparent;
    padding: 10px;
-   
    transition: all 0.5s ease;
    color: #41403e;
    font-size: 18px;
@@ -457,11 +481,6 @@ align-self: center;
    outline: none;
    box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-  /* Above is shorthand for: border-top-left-radius: 255px 15px;
-   border-top-right-radius: 15px 225px;
-   border-bottom-right-radius: 225px 15px;
-   border-bottom-left-radius:15px 255px;
-   */
 }
 /*for some weird reason when the border is above 2.9px, a little box shows up inside it on phone*/
 
@@ -470,7 +489,10 @@ button.lined.thin:hover {
 
 /*HAND DRAWN BUTTONS END*/
 
-
+.footersearch:hover {
+  transform:translateY(-2px);
+  box-shadow: 6px 8px 4px -6px rgba(0, 0, 0, .6);
+}
 
 
 
@@ -489,10 +511,10 @@ button.lined.thin:hover {
 
 .zindex {z-index:6;
 position:relative;
-cursor:zoom-in;}
+}
 
-.zindex:hover {
-  cursor: zoom-in !important;
+img.zindex:hover {
+cursor: url("./pics/magglass.png"), auto !important
 }
 
 .cabinprofilewrapper {padding: 50px; padding-top:200px;
@@ -513,7 +535,8 @@ width:30%;
 height:auto;*/
  /*this actually works pretty well for the lightbox imgs on mobile, but makes them too big on big screen. use for breakpoint*/
 
-.cabinzoomable {padding:40px 10px;}
+.cabinzoomable {padding:40px 10px;
+}
 
 .mainimg {
 margin:50px;
@@ -834,7 +857,7 @@ position:relative;
 
 
 .escape { position: relative;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 font-family: 'Patrick Hand SC', Comic Sans ;
@@ -951,14 +974,6 @@ left:44%;
 
 }
 /*END OF MEDIA QUERIES*/
-
-
-
-/*blahhhhbuhnouihouhboubougiouhhouhoho*/
-
-/*color:#1B6EB0; this is the navy blue color for the logo and navbar*/
-/*  color: #41403e; what im using instead of black*/
-
 
 
 

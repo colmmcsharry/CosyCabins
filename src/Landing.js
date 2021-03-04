@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*import Gallery from 'react-grid-gallery';*/
 import { photos } from "./photos";
 import SingleSource from './SingleSource.js'
 import wildcabin from './pics/screenshot2.jpg'
 import cabinwindow from './pics/cabinwindow.jpg'
 import cabintriangle from './pics/cabintriangle.jpg'
-import mountaincabin from './pics/woods.jpg'
-import mountaincabinsml from './pics/woodssml.jpg'
+import highcabin from './pics/woods.jpg'
+import highcabinsml from './pics/woodssml.jpg'
 import inside from './pics/inside.jpg'
 import insidetiny from './pics/insidetiny.jpg'
 import pjjsml from './pics/pjimagesml.jpg'
@@ -51,14 +50,13 @@ font-size:1.4rem;
 font-family:Patrick Hand SC;
 color:var(--mycharcoal);
 
-p.closing {margin-bottom:100px;
-color:blue;}
+p.closing {margin-bottom:240px;}
 
 &.intro {
   padding:0;
-  margin-bottom:100px;
+  margin-bottom:120px;
 
-  p {margin-bottom:100px}
+  p {margin-bottom:120px}
 }
 
  @media (min-width: 2000px){
@@ -74,24 +72,22 @@ place-items:center;
 grid-auto-rows:1fr;
 padding:5%;
 border-color:red;
-  grid-row-gap:100px;
-  margin-bottom:100px;
+ grid-row-gap:140px;
+  margin-bottom:240px;
   /*this is the equivalent of margin-bottom for each row */
 
  /*from tablets up, two columns, images at 80% */ 
   @media (min-width: 650px) {
     grid-template-columns:1fr 1fr;
-   & img {width:80%}
+      grid-row-gap:240px;
+   & .zoompic {width:30rem;}
   }
 `
 const StyledModal = styled(ModalImage)`
 border: solid 2px black;
 border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-width:100%;
+width:120%;
 
-&:hover {
-
-  }
 
 `
 
@@ -113,15 +109,10 @@ return (
   <React.Fragment>
 {/*maincontainer is just for the landing image*/}
     <div id ="maincontainer">  
-            
             <div className="maincontainerfilter">
-            
-
-                  <p className="escape" >Escape</p>
-              
-
-                        <div className="moving-clouds">
-                                    </div>
+               <p className="escape" >Escape</p>
+ <div className="moving-clouds">
+</div>
        </div>
       </div>  
 {/*landing image ends*/}
@@ -148,33 +139,37 @@ return (
 
 <Gridwrap>
 
-       <Textdiv>Hi i'm some text, I want to be in the middle
-       Hi i'm some text, I want to be in the middle
-       Hi i'm some text, I want to be in the middle
+       <Textdiv>Our cabins are the perfect getaway
+       <br/><br/>
+Out of the city, but not out of reach
        </Textdiv>
  <StyledModal
-  small={pjjsml}
-  large={pjjbig}  
+  small={highcabinsml}
+  large={highcabin}  
   hideDownload={true}
+  className="zoompic"
 />
   
- <Textdiv className="rev">Hidifferent textst, I want to be in the middle
-       Hi i'm some text, I want to be in the middle
+ <Textdiv className="rev">We have cabins in every province
+ <br/><br/>
+Fully heated, fully equipped, fully private
        </Textdiv>
  <StyledModal
-  small={pjjsml}
-  large={pjjbig}  
+  small={insidetiny}
+  large={inside}  
   hideDownload={true}
+   className="zoompic"
 />
 
-<Textdiv>Hi i'm some text, I want to be in the middle
-       Hi i'm some text, I want to be in the middle
-       Hi i'm some text, I want to be in the middle
+<Textdiv>So whether you're a yogi, writer, philosopher
+<br/><br/>
+or just want a change of scenery...
        </Textdiv>
  <StyledModal
   small={pjjsml}
   large={pjjbig}  
   hideDownload={true}
+   className="zoompic"
 />
      </Gridwrap>
 

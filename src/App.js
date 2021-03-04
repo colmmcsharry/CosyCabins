@@ -5,7 +5,6 @@ import routes from './routes.js'
 import './App.css'
 // import Weather from './Weather.js'
 import Weather from './Weather.js'
-import Basic from './Basic.js'
 import Navbar from "./Navbar.js";
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
