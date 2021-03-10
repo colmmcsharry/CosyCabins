@@ -208,6 +208,7 @@ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
 .btn-secondary:hover {
   transform:translateY(-2px);
+  transition: all 100ms ease;
 filter: brightness(160%);
   /*the properties beflow and the animation make the colors change on hover, its cool!*/
 /*   border-color: hsl(0,100%,50%);*/
@@ -235,8 +236,8 @@ filter: brightness(160%);
 .footerlist {position:absolute;
   display:inline-block;
   font-weight: bold;
-  font-size:16px;
-  left:13px;
+  font-size:18px;
+  left:0vw;
   bottom:0px;
   text-align: left;
   color: #41403e;
@@ -244,14 +245,19 @@ filter: brightness(160%);
 }
 
 .footerlist a {font-weight: bold;
-  font-size:16px !important;
-  color: #41403e;
+  font-size:18px !important;
+  color: var(--mycharcoal);
 transition: transform 250ms;
+padding:2px;
+padding-bottom:0px;
 display:block;
 }
 
-.footerlist a:hover {transform: translateY(-5px);
-color:black;}
+.footerlist a:hover {
+  transform:translateY(-.25em);
+text-decoration:none;
+  color:black;
+}
 
 .footersearch {position:absolute;
 font-size:30px;
@@ -263,7 +269,7 @@ transition:all .2s ease;}
 .social-container {
   margin:0px;
   background: #FFFFF0;
-  padding: 20px 50px;
+  padding: 5vh 5vw;
   font-size:16px;  /*just change this on phone and the icons will get smaller too, as they change depending on the parent's fontsize*/
   position:absolute;
   left:0;
@@ -344,6 +350,7 @@ font-family: Patrick Hand SC;
 font-size: 1.6rem;
 animation:fadein 3s ease-in forwards;
 opacity:0;
+letter-spacing:1px;
 }
 
 
@@ -364,6 +371,7 @@ opacity:0;
     height: 450px;
     width: 450px;
     margin: none;
+
 }
 
 .carimages.one {
@@ -490,8 +498,7 @@ button.lined.thin:hover {
 /*HAND DRAWN BUTTONS END*/
 
 .footersearch:hover {
-  transform:translateY(-2px);
-  box-shadow: 6px 8px 4px -6px rgba(0, 0, 0, .6);
+  transform:translateY(-.25em);
 }
 
 
