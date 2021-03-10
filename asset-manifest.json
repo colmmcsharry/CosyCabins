@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CosyCabins/static/css/main.3ede1319.chunk.css",
-    "main.js": "/CosyCabins/static/js/main.8b504be7.chunk.js",
-    "main.js.map": "/CosyCabins/static/js/main.8b504be7.chunk.js.map",
+    "main.css": "/CosyCabins/static/css/main.5689aeb6.chunk.css",
+    "main.js": "/CosyCabins/static/js/main.ae1cd82c.chunk.js",
+    "main.js.map": "/CosyCabins/static/js/main.ae1cd82c.chunk.js.map",
     "runtime-main.js": "/CosyCabins/static/js/runtime-main.878d60e5.js",
     "runtime-main.js.map": "/CosyCabins/static/js/runtime-main.878d60e5.js.map",
     "static/css/2.b1af4d5b.chunk.css": "/CosyCabins/static/css/2.b1af4d5b.chunk.css",
-    "static/js/2.c545b959.chunk.js": "/CosyCabins/static/js/2.c545b959.chunk.js",
-    "static/js/2.c545b959.chunk.js.map": "/CosyCabins/static/js/2.c545b959.chunk.js.map",
+    "static/js/2.ed65520a.chunk.js": "/CosyCabins/static/js/2.ed65520a.chunk.js",
+    "static/js/2.ed65520a.chunk.js.map": "/CosyCabins/static/js/2.ed65520a.chunk.js.map",
     "index.html": "/CosyCabins/index.html",
-    "precache-manifest.ba14826ca7be51abbe7f903577e06b13.js": "/CosyCabins/precache-manifest.ba14826ca7be51abbe7f903577e06b13.js",
+    "precache-manifest.d122188742d903e13c8f089e91e5df39.js": "/CosyCabins/precache-manifest.d122188742d903e13c8f089e91e5df39.js",
     "service-worker.js": "/CosyCabins/service-worker.js",
     "static/css/2.b1af4d5b.chunk.css.map": "/CosyCabins/static/css/2.b1af4d5b.chunk.css.map",
-    "static/css/main.3ede1319.chunk.css.map": "/CosyCabins/static/css/main.3ede1319.chunk.css.map",
-    "static/js/2.c545b959.chunk.js.LICENSE.txt": "/CosyCabins/static/js/2.c545b959.chunk.js.LICENSE.txt",
+    "static/css/main.5689aeb6.chunk.css.map": "/CosyCabins/static/css/main.5689aeb6.chunk.css.map",
+    "static/js/2.ed65520a.chunk.js.LICENSE.txt": "/CosyCabins/static/js/2.ed65520a.chunk.js.LICENSE.txt",
     "static/media/Dubcabin.jpg": "/CosyCabins/static/media/Dubcabin.508d3c52.jpg",
     "static/media/Dubcabin2.jpg": "/CosyCabins/static/media/Dubcabin2.13217e70.jpg",
     "static/media/Dubcabin3.jpg": "/CosyCabins/static/media/Dubcabin3.cacb74f9.jpg",
@@ -26,7 +26,7 @@
     "static/media/belfast.jpeg": "/CosyCabins/static/media/belfast.da045691.jpeg",
     "static/media/boat.jpg": "/CosyCabins/static/media/boat.ead264fd.jpg",
     "static/media/cabinforest.jpg": "/CosyCabins/static/media/cabinforest.25cd4d64.jpg",
-    "static/media/App.css": "/CosyCabins/static/media/clouds.4b7e77de.png",
+    "static/media/App.css": "/CosyCabins/static/media/magglass.0df3c227.png",
     "static/media/cabinhighmob.jpg": "/CosyCabins/static/media/cabinhighmob.a02fe777.jpg",
     "static/media/cabintriangle.jpg": "/CosyCabins/static/media/cabintriangle.566670e2.jpg",
     "static/media/cabinwindow.jpg": "/CosyCabins/static/media/cabinwindow.3bce9089.jpg",
@@ -36,6 +36,7 @@
     "static/media/einsteinmob.jpg": "/CosyCabins/static/media/einsteinmob.dac7fc1b.jpg",
     "static/media/enviro.jpg": "/CosyCabins/static/media/enviro.9c0848d2.jpg",
     "static/media/freelanceworkers.jpg": "/CosyCabins/static/media/freelanceworkers.9770b8f6.jpg",
+    "static/media/home.png": "/CosyCabins/static/media/home.432f36cd.png",
     "static/media/inside-small.jpg": "/CosyCabins/static/media/inside-small.32b547cf.jpg",
     "static/media/inside.jpg": "/CosyCabins/static/media/inside.8ef826df.jpg",
     "static/media/insidetiny.jpg": "/CosyCabins/static/media/insidetiny.596e8114.jpg",
@@ -58,8 +59,8 @@
   "entrypoints": [
     "static/js/runtime-main.878d60e5.js",
     "static/css/2.b1af4d5b.chunk.css",
-    "static/js/2.c545b959.chunk.js",
-    "static/css/main.3ede1319.chunk.css",
-    "static/js/main.8b504be7.chunk.js"
+    "static/js/2.ed65520a.chunk.js",
+    "static/css/main.5689aeb6.chunk.css",
+    "static/js/main.ae1cd82c.chunk.js"
   ]
 }

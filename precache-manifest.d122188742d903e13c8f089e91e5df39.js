@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "850de7bed69395f6bbd90667d895f1d5",
+    "revision": "00eb60799f39671fb67406b4c617bc99",
     "url": "/CosyCabins/index.html"
   },
   {
-    "revision": "8c7a12225b6fe5e3c38b",
+    "revision": "42f60706a528af72ca15",
     "url": "/CosyCabins/static/css/2.b1af4d5b.chunk.css"
   },
   {
-    "revision": "1242039db6ba796d63ae",
-    "url": "/CosyCabins/static/css/main.3ede1319.chunk.css"
+    "revision": "777d06a85341fceee582",
+    "url": "/CosyCabins/static/css/main.5689aeb6.chunk.css"
   },
   {
-    "revision": "8c7a12225b6fe5e3c38b",
-    "url": "/CosyCabins/static/js/2.c545b959.chunk.js"
+    "revision": "42f60706a528af72ca15",
+    "url": "/CosyCabins/static/js/2.ed65520a.chunk.js"
   },
   {
     "revision": "96a243e504f8fe9b05c8e4807ec9ed73",
-    "url": "/CosyCabins/static/js/2.c545b959.chunk.js.LICENSE.txt"
+    "url": "/CosyCabins/static/js/2.ed65520a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1242039db6ba796d63ae",
-    "url": "/CosyCabins/static/js/main.8b504be7.chunk.js"
+    "revision": "777d06a85341fceee582",
+    "url": "/CosyCabins/static/js/main.ae1cd82c.chunk.js"
   },
   {
     "revision": "60533b7b768732cd8fef",
@@ -132,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CosyCabins/static/media/freelanceworkers.9770b8f6.jpg"
   },
   {
+    "revision": "432f36cd1da850db977a1fed41e6df4a",
+    "url": "/CosyCabins/static/media/home.432f36cd.png"
+  },
+  {
     "revision": "32b547cf0103a23ab96b4d855cb34664",
     "url": "/CosyCabins/static/media/inside-small.32b547cf.jpg"
   },
@@ -146,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d54f7cfd7a08569f4bca98caa9d2aebe",
     "url": "/CosyCabins/static/media/isolatedsml.d54f7cfd.jpg"
+  },
+  {
+    "revision": "0df3c2270dd8079bd241345b5ace8761",
+    "url": "/CosyCabins/static/media/magglass.0df3c227.png"
   },
   {
     "revision": "b07fc0a363d0e6e4f1e99ac6728a8cea",
