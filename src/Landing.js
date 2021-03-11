@@ -98,7 +98,7 @@ const Textdiv = styled.div`
 
  @media (min-width: 650px){
 padding:10%;
-  
+
   &.rev {
      grid-column:2;
      grid-row:2;}
@@ -132,7 +132,7 @@ return (
         <br/> <br/> 
     Escape to a Cosy Cabin!    
     </p>
-  <LazyLoad height={450} once offset={250}>     
+  <LazyLoad height={450} once offset={450}>     
     <div className="GalleryWrapper">
 
     <MyCarousel/>
@@ -153,7 +153,7 @@ return (
        <br/><br/>
 Out of the city, but not out of reach
        </Textdiv>
- <LazyLoad height={450} once offset={50} >      
+ <LazyLoad height={450} once offset={450} >      
  <StyledModal
   small={highcabinsml}
   large={highcabin}  
@@ -165,7 +165,7 @@ Out of the city, but not out of reach
  <br/><br/>
 Fully heated, fully equipped, fully private
        </Textdiv>
-<LazyLoad height={450} once offset={250} >
+<LazyLoad height={450} once offset={450} >
  <StyledModal
   small={insidetiny}
   large={inside}  
@@ -178,7 +178,7 @@ Fully heated, fully equipped, fully private
 or just want a change of scenery...
        </Textdiv>
 
- <LazyLoad height={450} once offset={250} >      
+ <LazyLoad height={450} once offset={450} >      
  <StyledModal
   small={pjjsml}
   large={pjjbig}  
