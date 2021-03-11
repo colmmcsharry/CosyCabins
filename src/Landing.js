@@ -95,8 +95,10 @@ width:120%;
 
 
 const Textdiv = styled.div`
-padding:10%;
+
  @media (min-width: 650px){
+padding:10%;
+  
   &.rev {
      grid-column:2;
      grid-row:2;}
