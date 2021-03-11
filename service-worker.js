@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CosyCabins/precache-manifest.0522eefe574c61c88d4a0db60b151ce0.js"
+  "/CosyCabins/precache-manifest.40fe142bcc9752d203bd7d40406e8316.js"
 );
 
 self.addEventListener('message', (event) => {

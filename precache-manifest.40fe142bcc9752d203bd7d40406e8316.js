@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "414f26caf67c699232fb7435c8f9ced2",
+    "revision": "47178ea8cec6d541d95d10d54672f281",
     "url": "/CosyCabins/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CosyCabins/static/css/2.b1af4d5b.chunk.css"
   },
   {
-    "revision": "ebf667cf731c644f4eab",
-    "url": "/CosyCabins/static/css/main.12efae11.chunk.css"
+    "revision": "3cd65232ef791a61d41d",
+    "url": "/CosyCabins/static/css/main.814c4afb.chunk.css"
   },
   {
     "revision": "4125afb046a7699c7afe",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CosyCabins/static/js/2.919c4d5a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebf667cf731c644f4eab",
-    "url": "/CosyCabins/static/js/main.97a633e0.chunk.js"
+    "revision": "3cd65232ef791a61d41d",
+    "url": "/CosyCabins/static/js/main.985402f6.chunk.js"
   },
   {
     "revision": "60533b7b768732cd8fef",
