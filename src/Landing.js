@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LazyLoad from "react-lazyload";
 import { photos } from "./photos";
 import SingleSource from './SingleSource.js'
 import wildcabin from './pics/screenshot2.jpg'
@@ -31,6 +32,7 @@ import {
   faGithub,
   faLinkedIn
 } from "@fortawesome/free-brands-svg-icons";
+
 
 
 const rotate = keyframes`
@@ -128,7 +130,13 @@ return (
         <br/> <br/> 
     Escape to a Cosy Cabin!    
     </p>
-    <div className="GalleryWrapper"><MyCarousel/></div>
+  <LazyLoad height={450} once offset={250}>     
+    <div className="GalleryWrapper">
+
+    <MyCarousel/>
+
+    </div>
+      </LazyLoad>
 </Section>
 
 
@@ -143,34 +151,39 @@ return (
        <br/><br/>
 Out of the city, but not out of reach
        </Textdiv>
+ <LazyLoad height={450} once offset={50} >      
  <StyledModal
   small={highcabinsml}
   large={highcabin}  
   hideDownload={true}
   className="zoompic"
 />
-  
+</LazyLoad>
  <Textdiv className="rev">We have cabins in every province
  <br/><br/>
 Fully heated, fully equipped, fully private
        </Textdiv>
+<LazyLoad height={450} once offset={250} >
  <StyledModal
   small={insidetiny}
   large={inside}  
   hideDownload={true}
    className="zoompic"
 />
-
+</LazyLoad>
 <Textdiv>So whether you're a yogi, writer, philosopher
 <br/><br/>
 or just want a change of scenery...
        </Textdiv>
+
+ <LazyLoad height={450} once offset={250} >      
  <StyledModal
   small={pjjsml}
   large={pjjbig}  
   hideDownload={true}
    className="zoompic"
 />
+</LazyLoad>
      </Gridwrap>
 
  
@@ -189,9 +202,9 @@ or just want a change of scenery...
 
 
           
-  
+  <LazyLoad height={450} offset={350} >
      <div className="Youtubee"><YouTube id='qACkbI3dhxQ?t=31' /></div>
-
+</LazyLoad>
 </Section>
 
     </React.Fragment>

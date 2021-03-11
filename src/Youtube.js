@@ -3,6 +3,10 @@ import React from "react";
 
 
 export default ({ youtubeId }) => {
+
+document.addEventListener('touchstart', onTouchStart, {passive: true});
+
+  
   return (
     <div
       className="video"

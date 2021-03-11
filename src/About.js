@@ -8,6 +8,7 @@ import einsteinlrg from './pics/einsteinlrg.jpg'
 import einsteinmob from './pics/einsteinmob.jpg'
 import Weather from './Weather.js'
 import ResponsiveGallery from './ResponsiveGallery.js'
+import LazyLoad from "react-lazyload";
 /*the below way is the new function/hooks way of doing componentDidMount, same as I did it in the Blogs component*/
 
 export default function About () {
@@ -25,30 +26,31 @@ export default function About () {
 		
 
 <div className="aboutcontainer">
-		<h1> About CubbyCabins</h1> <br/><br/>
+		<h1 id="aboutcc"> About CubbyCabins</h1> <br/><br/>
 		<p>Cubby Cabins was created as the antidote to stress</p>
 
 		<br/>
 		<img src={stress} height='300px' style={{border: 'solid 1px #41403e', borderRadius: '255px 15px 225px 15px/15px 225px 15px 255px'}} />
 		
 		
-		<br/>  <br/>
+		<br/>  <br/><br/>
 		<p>Ever felt trapped in work, and wish you could just escape?
 <br/> <br/>
 		Now you can with Cubby Cabins! </p>
 
-		<br/> <br/>
+		<br/> <br/> <br/> <br/>
+		 <LazyLoad height={450} once >  
 <div id="mainhighcontainer" >
 		<div id="highcontainer" >
 			<div id="could">This could be you </div>
 		</div>
 	</div>		
-
+</LazyLoad>
 	<br/><br/> <br/><br/>
 		<p style= {{fontFamily:'Tahoma', fontSize:'1rem'}}>We create cosy little cabins in rustic locations where you can come and have some 'you-time'
 		<br/> <br/>Our cabins are easily booked, easily accessed and easily affordable! </p>
 
-		<figure><img className="ireland" src={ireland} height='400px' width= '400px'/><figcaption style={{position:'relative', bottom: '2rem',fontFamily:'Tahoma', fontSize:'1rem'}}>Our locations</figcaption></figure>
+		<figure><img className="ireland" src={ireland} height='400px' width= '400px'/><figcaption style={{position:'relative', bottom: '2rem',fontFamily:'Tahoma', fontSize:'.8rem', color:'grey'}}>Our locations</figcaption></figure>
 			<br/>
 		
 	
@@ -75,8 +77,9 @@ export default function About () {
 					 </div>
 
 		</div>
-		
+		<LazyLoad height={450} once offset={250}> 
 <br/><ResponsiveGallery /> <br/>
+</LazyLoad>
 	<div className="aboutgrid2">
 					<div className="abouttext2 second">  
 
@@ -96,10 +99,10 @@ export default function About () {
 					 </div>
 
 		</div>
-
+<LazyLoad height={450} once offset={250}>  
 		<img className="einstein" src={einstein}/>
 		<img id="einsteinmob" src={einsteinmob}/>
-
+</LazyLoad>
 
 
 </div>

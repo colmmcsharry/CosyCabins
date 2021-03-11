@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
-@import url('https://fonts.googleapis.com/css?family=Itim|Open+Sans|Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap);
+
 
 :root{
 --mybeige: #FFFFF0;
@@ -64,7 +63,9 @@ background-size: cover;
 
 /*make this the same size as the container it covers*/
 
-
+#aboutcc {
+  font-size:3.5rem;
+}
 
 
 .zoompic:hover{ cursor: url("./pics/magglass.png"), auto !important}
@@ -152,7 +153,7 @@ grid-template-columns: 1fr 1fr;
 
 
 .dropitems {color: #1B6EB0;
-font-family: quicksand;
+font-family: Open Sans, Arial ;
 background-color: #FFFFF0;
 font-size:16px;}
 
@@ -183,9 +184,9 @@ font-family: 'Patrick Hand SC';
 .blogclass h1 {font-family: Patrick Hand SC;
 }
 
-.blogclass p {font-family: Quicksand;}
+.blogclass p {font-family: Open Sans, Arial;}
 
-.blogtext {font-family: Quicksand;
+.blogtext {font-family: Open Sans, Arial;
 padding-left:15vw;
 padding-right:15vw;
 line-height:1.8;
@@ -210,6 +211,7 @@ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   transform:translateY(-2px);
   transition: all 100ms ease;
 filter: brightness(160%);
+
   /*the properties beflow and the animation make the colors change on hover, its cool!*/
 /*   border-color: hsl(0,100%,50%);*/
 /*animation: redred 10000ms 0ms infinite linear;*/
@@ -677,8 +679,9 @@ border: solid 3px #41403e;
   font-size:.5rem;
 position:absolute; 
 bottom:16%;
-left:49%;
-font-family:Quicksand;
+left:48%;
+  letter-spacing: 1px;
+font-family:Patrick Hand SC, Open Sans, Arial;
 }
 
 #mainhighcontainer
@@ -771,6 +774,24 @@ font-size:1.2rem;}
 
 
 /*MEDIA QUERIES*/
+
+
+@media screen and (min-width: 1100px) and (max-width:1400px) { 
+.alice-carousel__stage-item {
+  margin:0px 45px
+}
+
+}
+
+@media screen and (min-width: 800px) and (max-width:930px) { 
+.alice-carousel__stage-item {
+  margin:0px 35px
+}
+
+}
+
+
+
 
 @media only screen and (max-width: 900px) {
   
@@ -889,7 +910,7 @@ padding: 25px;
 padding-top:200px;
 }
 
-.blogtext {font-family: Quicksand;
+.blogtext {font-family: Open Sans, Arial;
   margin-top:20px;
 padding-left:5vw;
 padding-right:5vw;
@@ -948,12 +969,11 @@ width:70%;}
   font-size:1rem;
 }
 
-figcaption {bottom:10rem;}
 
 
 
 #could {
-  font-family:quicksand;
+  font-family:Open Sans, Arial;
   color:white;
   font-size:.4rem;
 position:absolute; 
