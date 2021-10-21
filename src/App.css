@@ -108,6 +108,7 @@ background-size: cover;
   width:70vw;
   margin:0 auto;
   padding:0% 10%;
+  margin-bottom:130px;
 }
 /*.weather {
   display:none;
@@ -735,7 +736,7 @@ font-family:Patrick Hand SC, Open Sans, Arial;
 .contactform {padding-top:160px;
 padding-left:5%;
 padding-right:5%;
-
+padding-bottom:160px;
 font-size:1.2rem;}
 
 
@@ -1087,13 +1088,18 @@ div.desc {
   }
 }
 
+
+
+.weatherh2 {
+  margin-bottom:100px;
+  font-family:Patrick Hand SC;
+}
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-
-
 
 
 

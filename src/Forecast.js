@@ -35,6 +35,7 @@ const customStyles = {
 return (
 
 		<div className="forecastcontainer">
+      <h2 className="weatherh2">Current Weather</h2>
       <ReactWeather
       theme={customStyles}
       isLoading={isLoading}
