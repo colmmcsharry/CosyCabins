@@ -7,6 +7,7 @@ import Lightbox from './Lightbox.js'
 import Blogs from './Blogs.js'
 import About from './About.js'
 import Contact from './Contact.js'
+import Father from './Inspo.js'
 
 export default [
 
@@ -21,7 +22,8 @@ export default [
 			 <Route key="belfast" path="/belfast" render={(props) => <Lightbox {...props} place="Belfast"  />}   />,
 			<Route key="blogs" path="/blogs" component={Blogs} />, 
 			<Route key="about" path="/about" component={About} />,  
-			<Route key="contact" path='/contact' component={Contact} />
+			<Route key="contact" path='/contact' component={Contact} />,
+			<Route key="inspo" path='/inspiration' component={Father} />
 
 
 

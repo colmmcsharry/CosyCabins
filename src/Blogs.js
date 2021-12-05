@@ -1,5 +1,4 @@
-import React, { Component, useEffect } from "react";
-import ReactDOM from 'react-dom';
+import React, { useEffect } from "react";
 import Blog from './Blog.js'
 import Blog2 from './Blog2.js'
 import Blog3 from './Blog3.js'
