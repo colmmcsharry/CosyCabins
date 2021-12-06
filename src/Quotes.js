@@ -29,16 +29,12 @@ export default function Quotable() {
   return (
     <div className="quotesdiv">
       
-          <blockquote className="blockquote mb-0">
-            <p>{data.content}</p>
-            {data.author && (
-              <footer className="blockquote-footer">
-                <cite title="Source Title">{data.author}</cite>
-              </footer>
-            )}
-          </blockquote>
+         
+            <p className="quote">{data.content}</p>
+            <p className="author">- {data.author}</p>
+          
        
-          <button onClick={updateQuote}>
+          <button className="teabut" onClick={updateQuote}>
             New Quote
           </button>
       
