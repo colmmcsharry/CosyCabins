@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import Quotable from './Quotes.js';
+import Spotify from './Spotify.js';
 import naturemov1 from './pics/naturemov1.jpg'
 import naturemov2 from './pics/naturemov1.jpg'
 import naturemov3 from './pics/naturemov3.jpg'
@@ -43,19 +44,13 @@ function next(){
 
 
 
-
+{/* header section */}
 <div id="videohero">
     <div className="texture"></div>
-        <video autoPlay muted>
+        <video autoPlay muted loop>
         <source src={naturevideo} type="video/mp4"/>
-        </video>
-
-
-    
+     </video>
         <Quotable/>
-
-
-    
     <a className="inspolink" href="#insposection"> 
         <div className="chevron"></div>
         <div className="chevron"></div>
@@ -64,25 +59,22 @@ function next(){
 </div>
 
 
-<div className="inspocontainer" id="insposection">
+<h1 className="unwindh1" id="insposection">Let Us Help You Unwind</h1>
+<p className="unwindsub">We want provide you with music and movies that 
+are based in nature and give you a sense of freedom and relaxation
+</p>
 
-<div className="inspocontent" >
-<button className="quotebutton filmbut spotifybut" onClick={next} id="cuppa">
-            Inspire Me!
-            </button>
-        <iframe className="spotifyplayer" src="https://open.spotify.com/embed/playlist/48sGg4EhRHdrPdurnSoUBH?utm_source=generator" width="350" height="380" 
-        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-         
-        
-</div>
-        <div className="inspocontent" >
-        <button className="quotebutton filmbut" onClick={next} id="cuppa">
-            Inspire Me!
-            </button>
-            <img className="listimg" src={Tedarray[activeObj]} width="100%" height="100%" />
-            
-        </div>
-</div>        
+    <div className="inspocontainer">
+    <Spotify />
+
+            <div className="inspocontent" >
+            <button className="quotebutton filmbut" onClick={next} id="cuppa">
+                Get Movies!
+                </button>
+                <img className="listimg" src={Tedarray[activeObj]} width="100%" height="100%" />
+                
+            </div>
+    </div>        
 
  
 
