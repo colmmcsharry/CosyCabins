@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CosyCabins/static/css/main.eaa898a4.chunk.css",
-    "main.js": "/CosyCabins/static/js/main.5590740b.chunk.js",
-    "main.js.map": "/CosyCabins/static/js/main.5590740b.chunk.js.map",
+    "main.css": "/CosyCabins/static/css/main.25812363.chunk.css",
+    "main.js": "/CosyCabins/static/js/main.ed0a0e90.chunk.js",
+    "main.js.map": "/CosyCabins/static/js/main.ed0a0e90.chunk.js.map",
     "runtime-main.js": "/CosyCabins/static/js/runtime-main.878d60e5.js",
     "runtime-main.js.map": "/CosyCabins/static/js/runtime-main.878d60e5.js.map",
     "static/css/2.b1af4d5b.chunk.css": "/CosyCabins/static/css/2.b1af4d5b.chunk.css",
-    "static/js/2.776eb2d7.chunk.js": "/CosyCabins/static/js/2.776eb2d7.chunk.js",
-    "static/js/2.776eb2d7.chunk.js.map": "/CosyCabins/static/js/2.776eb2d7.chunk.js.map",
+    "static/js/2.c5bd48f7.chunk.js": "/CosyCabins/static/js/2.c5bd48f7.chunk.js",
+    "static/js/2.c5bd48f7.chunk.js.map": "/CosyCabins/static/js/2.c5bd48f7.chunk.js.map",
     "index.html": "/CosyCabins/index.html",
-    "precache-manifest.320fbcee25d27657fb340cbcffa63226.js": "/CosyCabins/precache-manifest.320fbcee25d27657fb340cbcffa63226.js",
+    "precache-manifest.14cdcaf7ccdab038b5558080bd962030.js": "/CosyCabins/precache-manifest.14cdcaf7ccdab038b5558080bd962030.js",
     "service-worker.js": "/CosyCabins/service-worker.js",
     "static/css/2.b1af4d5b.chunk.css.map": "/CosyCabins/static/css/2.b1af4d5b.chunk.css.map",
-    "static/css/main.eaa898a4.chunk.css.map": "/CosyCabins/static/css/main.eaa898a4.chunk.css.map",
-    "static/js/2.776eb2d7.chunk.js.LICENSE.txt": "/CosyCabins/static/js/2.776eb2d7.chunk.js.LICENSE.txt",
+    "static/css/main.25812363.chunk.css.map": "/CosyCabins/static/css/main.25812363.chunk.css.map",
+    "static/js/2.c5bd48f7.chunk.js.LICENSE.txt": "/CosyCabins/static/js/2.c5bd48f7.chunk.js.LICENSE.txt",
     "static/media/Dubcabin.jpg": "/CosyCabins/static/media/Dubcabin.508d3c52.jpg",
     "static/media/Dubcabin2.jpg": "/CosyCabins/static/media/Dubcabin2.13217e70.jpg",
     "static/media/Dubcabin3.jpg": "/CosyCabins/static/media/Dubcabin3.cacb74f9.jpg",
@@ -71,8 +71,8 @@
   "entrypoints": [
     "static/js/runtime-main.878d60e5.js",
     "static/css/2.b1af4d5b.chunk.css",
-    "static/js/2.776eb2d7.chunk.js",
-    "static/css/main.eaa898a4.chunk.css",
-    "static/js/main.5590740b.chunk.js"
+    "static/js/2.c5bd48f7.chunk.js",
+    "static/css/main.25812363.chunk.css",
+    "static/js/main.ed0a0e90.chunk.js"
   ]
 }

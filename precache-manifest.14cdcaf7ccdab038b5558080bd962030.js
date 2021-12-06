@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1c60384178f418588e5e74eaecd4cf4",
+    "revision": "20acc28ee5c797857be0bfb7b9981735",
     "url": "/CosyCabins/index.html"
   },
   {
-    "revision": "9cd8b80399e50fa1d5cc",
+    "revision": "a7875c9ed2f904060066",
     "url": "/CosyCabins/static/css/2.b1af4d5b.chunk.css"
   },
   {
-    "revision": "a5a95aa71f525b22f517",
-    "url": "/CosyCabins/static/css/main.eaa898a4.chunk.css"
+    "revision": "790c67600e6ee588fd97",
+    "url": "/CosyCabins/static/css/main.25812363.chunk.css"
   },
   {
-    "revision": "9cd8b80399e50fa1d5cc",
-    "url": "/CosyCabins/static/js/2.776eb2d7.chunk.js"
+    "revision": "a7875c9ed2f904060066",
+    "url": "/CosyCabins/static/js/2.c5bd48f7.chunk.js"
   },
   {
     "revision": "96a243e504f8fe9b05c8e4807ec9ed73",
-    "url": "/CosyCabins/static/js/2.776eb2d7.chunk.js.LICENSE.txt"
+    "url": "/CosyCabins/static/js/2.c5bd48f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5a95aa71f525b22f517",
-    "url": "/CosyCabins/static/js/main.5590740b.chunk.js"
+    "revision": "790c67600e6ee588fd97",
+    "url": "/CosyCabins/static/js/main.ed0a0e90.chunk.js"
   },
   {
     "revision": "60533b7b768732cd8fef",
