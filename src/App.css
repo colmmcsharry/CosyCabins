@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap);
 
 
+
 :root{
 --mybeige: #FFFFF0;
 --mycharcoal: #41403e;
@@ -11,6 +12,7 @@ html {overflow-x: hidden !important;
   font-family:Patrick Hand SC;
   font-size:16px;
   color:var(--mycharcoal);
+  scroll-behavior: smooth;
 }
 
 
@@ -1111,10 +1113,7 @@ div.desc {
 
 /* css for inspo section */
 
-.listimg {
-  max-width:600px;
-  max-height:600px;
-}
+
 
 
 #videohero {
@@ -1167,7 +1166,7 @@ div.desc {
 background:url('./pics/cross-stripes.png')
 }
 
-.teabut {
+.quotebutton {
   border: solid 1px white;
   border-radius: 2% 96% 5% 5% / 10% 2% 96% 3% ;
   background-color:transparent;
@@ -1178,7 +1177,7 @@ background:url('./pics/cross-stripes.png')
 }
 
 .quote {
-  font-size:1.4rem;
+  font-size:1.6rem;
   font-family: 'Patrick Hand SC';
   color:white;
   max-width:800px;
@@ -1189,4 +1188,193 @@ background:url('./pics/cross-stripes.png')
   font-style: italic;
   font-size:1rem;
   color:rgba(255, 255, 255, 0.741)
+}
+
+
+
+
+
+
+
+
+
+.inspocontent {
+  margin-bottom:100px;
+  display:grid;
+  place-items:center;
+}
+
+.listimg {
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+  border:1px solid rgba(0, 0, 0, 0.179);
+   margin-top:50px;
+   padding:10px;
+
+}
+
+.spotifyplayer {
+  margin-bottom:100px;
+  padding:10px;
+  border:1px solid rgba(0, 0, 0, 0.179);
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+}
+
+.filmbut {
+  position:relative;
+  top: 0px;
+  margin:0 auto;
+  z-index:300;
+  border-color:black;
+  color:black;
+}
+
+.inspocontainer {
+  display:block;
+}
+
+.spotifybut {
+  margin-bottom:20px;
+  position:relative;
+}
+
+@media screen and (min-width:1200px){
+  .inspocontainer {
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    gap:10px;
+    place-items:center;
+    margin-bottom:200px;
+  }
+
+.inspocontent {
+  margin-bottom:0px;
+}
+
+ .spotifyplayer {
+   width:600px; 
+   height:700px;
+   padding:10px;
+   margin-bottom:0px;
+ } 
+
+ .listimg {
+  max-width:600px;
+  max-height:600px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* arrow thing */
+
+.arrowcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  background-color:transparent;
+  z-index:25;
+  bottom:50px;
+}
+
+.inspolink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  position:absolute;
+  background-color:transparent;
+  z-index:25;
+  bottom:50px;
+}
+
+.chevron {
+  position: absolute;
+  width: 1.7rem;
+  height: 0.28rem;
+  opacity: 0;
+  transform: scale(0.3);
+  -webkit-animation: move-chevron 3s ease-out infinite;
+          animation: move-chevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  -webkit-animation: move-chevron 3s ease-out 1s infinite;
+          animation: move-chevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  -webkit-animation: move-chevron 3s ease-out 2s infinite;
+          animation: move-chevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  z-index:20;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skewY(30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skewY(-30deg);
+}
+
+@-webkit-keyframes move-chevron {
+  25% {
+    opacity: 1;
+  }
+  33.3% {
+    opacity: 1;
+    transform: translateY(2.28rem);
+  }
+  66.6% {
+    opacity: 1;
+    transform: translateY(3.12rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(4.8rem) scale(0.5);
+  }
+}
+
+@keyframes move-chevron {
+  25% {
+    opacity: 1;
+  }
+  33.3% {
+    opacity: 1;
+    transform: translateY(2.28rem);
+  }
+  66.6% {
+    opacity: 1;
+    transform: translateY(3.12rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(4.8rem) scale(0.5);
+  }
 }

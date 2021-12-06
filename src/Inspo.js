@@ -53,17 +53,38 @@ function next(){
 
     
         <Quotable/>
-     
-   
+
+
+    
+    <a className="inspolink" href="#insposection"> 
+        <div className="chevron"></div>
+        <div className="chevron"></div>
+        <div className="chevron"></div>
+     </a> 
 </div>
 
 
-<div className="inspocontent">
-    <img className="listimg" src={Tedarray[activeObj]} width="100%" height="100%" />
-    <button className="teabut" onClick={next} id="cuppa">
-    Go on!
-    </button>
- </div>
+<div className="inspocontainer" id="insposection">
+
+<div className="inspocontent" >
+<button className="quotebutton filmbut spotifybut" onClick={next} id="cuppa">
+            Inspire Me!
+            </button>
+        <iframe className="spotifyplayer" src="https://open.spotify.com/embed/playlist/48sGg4EhRHdrPdurnSoUBH?utm_source=generator" width="350" height="380" 
+        frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+         
+        
+</div>
+        <div className="inspocontent" >
+        <button className="quotebutton filmbut" onClick={next} id="cuppa">
+            Inspire Me!
+            </button>
+            <img className="listimg" src={Tedarray[activeObj]} width="100%" height="100%" />
+            
+        </div>
+</div>        
+
+ 
 
 
     </React.Fragment>

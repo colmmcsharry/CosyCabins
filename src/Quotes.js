@@ -34,7 +34,7 @@ export default function Quotable() {
             <p className="author">- {data.author}</p>
           
        
-          <button className="teabut" onClick={updateQuote}>
+          <button className="quotebutton" onClick={updateQuote}>
             New Quote
           </button>
       
