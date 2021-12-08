@@ -7,8 +7,6 @@ import agalwaycab from './pics/agalwaycab.jpeg'
 import acorkcab from './pics/acorkcab.jpg'
 import kerry from './pics/cabinforest.jpg'
 import belfast from './pics/belfast.jpeg'
-// import Weather from './Weather.js'
-// import Weather7 from './Weather7.js'
 import ReactWeather, { useOpenWeather } from 'react-open-weather';
 import {allcabintexts} from './cabintexts.jsx'
 import Forecast from './Forecast.js'

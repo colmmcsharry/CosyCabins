@@ -5,43 +5,43 @@ import SingleSource from './SingleSource'
 import ModalImage from "react-modal-image";
 import Weather from './Weather.js'
 import {allcabintexts} from './cabintexts.jsx'
+import arrow from './pics/right-arrow.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Cabin (props) {
 
-
-
 return (
-
 	<React.Fragment>
+		<div className="cabinprofilewrapper">
+				<h1> {props.title} </h1>
+				<br/>
+				
+				<div className="cabinzoomable"> <ModalImage
+			className=" zindex small cabinmain"
+			small={props.mainimg}
+			large={props.mainimg} 
+			hideDownload={true}
+			/> 
 
-	<div className="cabinprofilewrapper">
+				
+			</div>
+				
 
-	<h1> {props.title} </h1>
-	<br/>
-	
-	<div className="cabinzoomable"> <ModalImage
-  className=" zindex small cabinmain"
-  small={props.mainimg}
-  large={props.mainimg} 
-  hideDownload={true}
-/> </div>
-	 
+				{props.text}
+				
 
-	 {props.text}
-	 
+				<ul style={{listStyleType : "none"}}>
+					<li> <span style={{fontFamily : 'Tahoma', fontWeight: 'bold'}} > Price: </span> {props.price} </li><br/>
+					<li> <span style={{fontFamily : 'Tahoma', fontWeight: 'bold'}} >Facilities: </span> {props.facilities} </li><br/>
+					<li> <span style={{fontFamily : 'Tahoma', fontWeight: 'bold'}} >Nearby: </span> {props.nearby} </li>
+				</ul>
+					
 
-	 <ul style={{listStyleType : "none"}}>
-	 	<li> <span style={{fontFamily : 'Tahoma', fontWeight: 'bold'}} > Price: </span> {props.price} </li><br/>
-	 	<li> <span style={{fontFamily : 'Tahoma', fontWeight: 'bold'}} >Facilities: </span> {props.facilities} </li><br/>
-	 	<li> <span style={{fontFamily : 'Tahoma', fontWeight: 'bold'}} >Nearby: </span> {props.nearby} </li>
-	 </ul>
-	 	
+					<Galrender cityphotos={props.photos}/>
 
-	 	<Galrender cityphotos={props.photos}/>
-
-	 </div>
-	 	</React.Fragment>
+				</div>
+	</React.Fragment>
 	)
 
 

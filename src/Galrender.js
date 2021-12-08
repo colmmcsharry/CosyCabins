@@ -21,8 +21,6 @@ const [currentImage, setCurrentImage] = useState(0);
   };
 
 return (<div className="Lwrapperdiv">
-        
-        
           <Gallery photos={cityphotos} onClick={openLightbox} />
           <ModalGateway>
             {viewerIsOpen ? (
@@ -41,9 +39,5 @@ return (<div className="Lwrapperdiv">
           
         
       </div>
-	
-
       )
 }
-
-/*Galrender is the component that renders each category's gallery, eg. builders, designers, chefs. I use the is whom prop to decide which category*/

@@ -521,6 +521,13 @@ button.lined.thin:hover {
 
 /*ALL CABINS PROFILE CSS */
 
+.rightarrow {
+  position:absolute;
+  top:50%;
+  right:20px;
+  z-index:99;
+}
+
 .zindex {z-index:6;
 position:relative;
 }
@@ -548,6 +555,7 @@ height:auto;*/
  /*this actually works pretty well for the lightbox imgs on mobile, but makes them too big on big screen. use for breakpoint*/
 
 .cabinzoomable {padding:40px 10px;
+  position:relative;
 }
 
 .mainimg {
@@ -1115,6 +1123,7 @@ div.desc {
 
 .unwindh1 {
   font-family:Patrick Hand SC;
+  
 }
 .unwindsub {
   font-family:Tahoma;
@@ -1122,7 +1131,7 @@ div.desc {
  
   max-width:500px;
   margin:5px auto;
-  margin-bottom:100px;
+  margin-bottom:10px;
 }
 
 
@@ -1259,6 +1268,12 @@ transform: translateY(4px);
   display:block;
 }
 
+.biginspowrapper {
+  background-image: linear-gradient(to bottom, #feffef, #fffaeb, #fff5ea, #fff1e9, #ffedea, #ffedea, #ffedea, #ffedea, #fff1e9, #fff5ea, #fffaeb, #feffef);
+  padding-top:100px;
+
+}
+
 .spotifybut {
   margin-bottom:20px;
   position:relative;
@@ -1270,7 +1285,6 @@ transform: translateY(4px);
     flex-direction: row;
     align-items: stretch;  
     margin-bottom:200px;
-    background-color:rgba(255, 192, 203, 0.247);
     padding:100px;
   }
 

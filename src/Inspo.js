@@ -19,7 +19,7 @@ import naturevideo from './pics/mutedvid.mp4'
 
 export default function Father(){
 
-  const Tedarray = [
+  const Movarray = [
     naturemov1,naturemov2,naturemov3,naturemov4, naturemov5,naturemov6,naturemov7,naturemov8,naturemov9, naturemov10,naturemov11,naturemov12
   ]
 
@@ -30,7 +30,7 @@ const [activeObj, setActiveObj] = useState(randomstart);
 
 function next(){
   let newactiveObj = activeObj + 1;
-  if(newactiveObj === Tedarray.length){
+  if(newactiveObj === Movarray.length){
     newactiveObj = 0
   }
   setActiveObj(newactiveObj)
@@ -59,11 +59,10 @@ function next(){
 </div>
 
 
+<div className="biginspowrapper">
 <h1 className="unwindh1" id="insposection">Let Us Help You Unwind</h1>
-<p className="unwindsub">We want provide you with music and movies that 
-are based in nature and give you a sense of freedom and relaxation
+<p className="unwindsub">A curated selection of music and movies that will help you forget about city life!
 </p>
-
     <div className="inspocontainer">
     <Spotify />
 
@@ -71,10 +70,11 @@ are based in nature and give you a sense of freedom and relaxation
             <button className="quotebutton filmbut" onClick={next} id="cuppa">
                 Get Movies!
                 </button>
-                <img className="listimg" src={Tedarray[activeObj]} width="100%" height="100%" />
+                <img className="listimg" src={Movarray[activeObj]} width="100%" height="100%" />
                 
             </div>
-    </div>        
+    </div> 
+ </div>          
 
  
 

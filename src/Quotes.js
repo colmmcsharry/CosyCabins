@@ -28,12 +28,8 @@ export default function Quotable() {
 
   return (
     <div className="quotesdiv">
-      
-         
             <p className="quote">{data.content}</p>
             <p className="author">- {data.author}</p>
-          
-       
           <button className="quotebutton" onClick={updateQuote}>
             New Quote
           </button>
